@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Greetings!!"
+title: "Greetings, human!!"
 ---
 <img style="float: left; padding-right:25px" src="assets/me.JPG" width="30%" height="30%">My name is Rishabh Singh. I'm a PhD candidate under the advisement of Dr. [Jose C. Principe](https://www.ece.ufl.edu/people/faculty/jose-c-principe/) at the [Computational NeuroEngineering Lab (CNEL)](http://www.cnel.ufl.edu), [University of Florida](https://www.ufl.edu).
 
