@@ -17,11 +17,11 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Home", icon: home}
-  - {file: "README.md", title: "Research"}
-  - {file: "README.md", title: "Publications"}
-  - {file: "README.md", title: "Talks"}
-  - {file: "README.md", title: "Industry"}
-  - {file: "README.md", title: "Undergraduate"}
+  - {file: "res.md", title: "Research"}
+  - {file: "pub.md", title: "Publications"}
+  - {file: "talk.md", title: "Talks"}
+  - {file: "ind.md", title: "Industry"}
+  - {file: "und.md", title: "Undergraduate"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:rish283@ufl.edu"}
