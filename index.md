@@ -2,7 +2,8 @@
 layout: page
 title: "Greetings!!"
 ---
-<img src="assets/me.JPG" width="50%" height="50%">
+![my picture](assets/me.JPG){:class="img-responsive"}
+![my picture](assets/me.JPG){:height="50%" width="50%"}
 My name is Rishabh Singh. I'm a PhD candidate under the advisement of Dr. Jose C. Principe at the Computational NeuroEngineering Lab (CNEL), University of Florida.
 
 My research involves developing physics inspired information theoretical frameworks for applications such as uncertainty quantification in deep learning, quantification of domain transferability and high resolution information retrieval from data and machine learning models. Visit my Research page to learn more!
