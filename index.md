@@ -2,7 +2,7 @@
 layout: page
 title: "Greetings!!"
 ---
-<img style="float: left; padding-right:50px" src="assets/me.JPG" width="30%" height="30%">My name is Rishabh Singh. I'm a PhD candidate under the advisement of Dr. Jose C. Principe at the Computational NeuroEngineering Lab (CNEL), University of Florida.
+<img style="float: left; padding-right:50px" src="assets/me.JPG" width="30%" height="30%">My name is Rishabh Singh. I'm a PhD candidate under the advisement of Dr. Jose C. Principe at the <a href="http://www.cnel.ufl.edu">Computational NeuroEngineering Lab (CNEL)</a>, <a href="http://www.ufl.edu">University of Florida</a>.
 
 My research involves developing physics inspired information theoretical frameworks for applications such as uncertainty quantification in deep learning, quantification of domain transferability and high resolution information retrieval from data and machine learning models. Visit my Research page to learn more!
 
