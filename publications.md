@@ -41,6 +41,13 @@ We demonstrate that a systematic inclusion of prior structural constraints on th
 2019:
 ===
 
+Singh, R. and Principe, J.C., 2019. **A New Uncertainty Framework for Stochastic Signal Processing**. [(Paper Link)](arXiv preprint arXiv:1904.13038)
+<details>
+<summary> Abstract </summary>
+<br>
+The fields of signal processing and information theory have evolved with the goal of developing formulations to extract intrinsic information from limited amount of data. When one considers the modeling of unpredictably varying processes and complex dynamical signals with a large number of unknowns (such as those encountered in the fields of finance, NLP, communications, etc.), there is a need for algorithms to have increased sensitivity with short spans of data, while maintaining stochastic generalization ability. This naturally calls for an increased focus on localized stochastic representation. So far, most metrics developed for characterizing signals envision data from entropic and probabilistic points of view that lack sensitivity towards quick changes in signal dynamics. We hypothesize that models that work with the intrinsic uncertainties associated with local data induced metric spaces would be significantly more sensitive towards signal characterization. To this end, we develop a new framework for stochastic signal processing that is based on decomposing the local metric space of the signal in a Gaussian Reproducing Kernel Hilbert Space (RKHS). A major advantage of our framework is that we are able to implement this decomposition on a sample-by-sample basis. The key aspects of our framework are the following: (1) We use a data defined metric related to Parzen density estimation for quantifying the local structure of data in the Gaussian RKHS. (2) We use a quantum description of this metric which consequently introduces uncertainty in the structure of the local kernel space. Since the RKHS has been well established and known for providing universal data fitting capabilities, we submit that local quantifiers of the kernel space data projection could significantly improve acquisition of signal information.
+</details>
+
 2018:
 ===
 
