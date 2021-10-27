@@ -41,7 +41,7 @@ We demonstrate that a systematic inclusion of prior structural constraints on th
 2019:
 ===
 
-Singh, R. and Principe, J.C., 2019. **A New Uncertainty Framework for Stochastic Signal Processing**. [(Paper Link)](arXiv preprint arXiv:1904.13038)
+Singh, R. and Principe, J.C., 2019. **A New Uncertainty Framework for Stochastic Signal Processing**. [(Paper Link)](https://arxiv.org/abs/1904.13038)
 <details>
 <summary> Abstract </summary>
 <br>
