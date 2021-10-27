@@ -70,7 +70,7 @@ In this paper, we present a novel technique to estimate the position of the roto
 
 2013:
 ===
-Singh, R., Umashankar, S., Vijaykumar, D. and Kothari, D.P., 2013, April. **Dynamic braking of induction motor-Analysis of conventional methods and an efficient multistage braking model**. In 2013 International Conference on Energy Efficient Technologies for Sustainability (pp. 197-206). IEEE.
+Singh, R., Umashankar, S., Vijaykumar, D. and Kothari, D.P., 2013, April. **Dynamic braking of induction motor-Analysis of conventional methods and an efficient multistage braking model**. In 2013 International Conference on Energy Efficient Technologies for Sustainability (pp. 197-206). IEEE. [(Paper Link)](https://ieeexplore.ieee.org/abstract/document/6533382)
 <details>
 <summary> Abstract </summary>
 <br>
