@@ -51,6 +51,13 @@ The fields of signal processing and information theory have evolved with the goa
 2018:
 ===
 
+Singh, R. and Principe, J.C., 2018, July. **Correntropy based hierarchical linear dynamical system for speech recognition**. In 2018 International Joint Conference on Neural Networks (IJCNN) (pp. 1-7). IEEE. [(Paper Link)](https://ieeexplore.ieee.org/abstract/document/8489775)
+<details>
+<summary> Abstract </summary>
+<br>
+Hierarchical Linear Dynamical System (HLDS) is a recently introduced Kalman filter based generative state model that extracts relevant self-segmenting information from input time series signal by hierarchically constraining the information representing subspaces of its states thus slowing down the dynamics of the input signal. Despite the simplicity of its nested architecture and its dependance on linear Kalman update rules, the HLDS has been shown to have state-of-the-art performance in the classification of musical notes. However, it was observed that the application scope of this state based model was only limited to linearly separable signals since the representations of non-linear and non-stationary signals (such as speech) in the state space of the HLDS was highly intermingled and hence, non-discriminative. This paper proposes a kernel based extension of the HLDS that shows promising results in the sparse and discriminative representation of speech phonemes in its information representing state spaces. Specifically, we use correntropy as an additional non-linear constraint on top of the linear constraints already provided by the nested architecture of the states. We show that by using correntropy as the cost function in the Kalman update equations, we are able to adaptively restrict the different phonemes of a speech signal into localized areas of the top state space. Our training results, along with their authentication through top-down inference of the states, provide valid credibility to the use of HLDS as a promising speech recognition model.
+ </details>
+
 2017:
 ===
 
