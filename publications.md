@@ -61,7 +61,7 @@ Hierarchical Linear Dynamical System (HLDS) is a recently introduced Kalman filt
 2015:
 ===
 
-Singh, R., Sekhsaria, S. and Kulandhaivelu, S., **Novel Rotor Position Estimation Technique For Switched Reluctance Motor Using Vibration Signature Analysis**. [(Paper Link - PDF)](https://www.ee.iitb.ac.in/npec/Papers/Program/NPEC_2015_paper_62.pdf)
+Singh, R., Sekhsaria, S. and Kulandhaivelu, S., **Novel Rotor Position Estimation Technique For Switched Reluctance Motor Using Vibration Signature Analysis**. National Power Electronics Conference (NPEC) 2013. [(Paper Link - PDF)](https://www.ee.iitb.ac.in/npec/Papers/Program/NPEC_2015_paper_62.pdf)
 <details>
 <summary> Abstract </summary>
 <br>
