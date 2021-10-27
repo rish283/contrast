@@ -7,6 +7,7 @@ title: "Publications"
 ===
 Singh, R. and Principe, J.C., 2021. **Quantifying Model Predictive Uncertainty with Perturbation Theory**. [arXiv preprint arXiv:2109.10888](https://arxiv.org/abs/2109.10888)
 
+Singh, R. and Principe, J.C., 2021. **Toward a Kernel-Based Uncertainty Decomposition Framework for Data and Models**. Neural Computation, 33(5), pp.1164-1198. (https://arxiv.org/abs/2001.11495)
 
 2020:
 ===
