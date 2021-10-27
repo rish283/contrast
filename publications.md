@@ -31,7 +31,7 @@ This paper proposes a kernel based information theoretic framework with quantum 
 </details>
 
 
-R. Singh, S. Yu and J. C. Principe, **Composite Dynamic Texture Synthesis Using Hierarchical Linear Dynamical System** ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2020, pp. 2757-2761, doi: 10.1109/ICASSP40776.2020.9054084. [(Paper Link)](https://ieeexplore.ieee.org/abstract/document/9054084)
+R. Singh, S. Yu and J. C. Principe. **Composite Dynamic Texture Synthesis Using Hierarchical Linear Dynamical System**. ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2020, pp. 2757-2761, doi: 10.1109/ICASSP40776.2020.9054084. [(Paper Link)](https://ieeexplore.ieee.org/abstract/document/9054084)
 <details>
 <summary> Abstract </summary>
 <br>
