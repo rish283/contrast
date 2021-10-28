@@ -12,7 +12,7 @@ title: "Publications"
 We propose a framework for predictive uncertainty quantification of a neural network that replaces the conventional Bayesian notion of weight probability density function (PDF) with a physics based potential field representation of the model weights in a Gaussian reproducing kernel Hilbert space (RKHS) embedding. This allows us to use perturbation theory from quantum physics to formulate a moment decomposition problem over the model weight-output relationship. The extracted moments reveal successive degrees of regularization of the weight potential field around the local neighborhood of the model output. Such localized moments represent well the PDF tails and provide significantly greater accuracy of the model's predictive uncertainty than the central moments characterized by Bayesian and ensemble methods or their variants. We show that this consequently leads to a better ability to detect false model predictions of test data that has undergone a covariate shift away from the training PDF learned by the model. We evaluate our approach against baseline uncertainty quantification methods on several benchmark datasets that are corrupted using common distortion techniques. Our approach provides fast model predictive uncertainty estimates with much greater precision and calibration.
 </details>
 
-2. Singh, R. and Principe, J.C., 2021. **Toward a Kernel-Based Uncertainty Decomposition Framework for Data and Models**. Neural Computation, 33(5), pp.1164-1198. [(Paper Link)](https://arxiv.org/abs/2001.11495) 
+Singh, R. and Principe, J.C., 2021. **Toward a Kernel-Based Uncertainty Decomposition Framework for Data and Models**. Neural Computation, 33(5), pp.1164-1198. [(Paper Link)](https://arxiv.org/abs/2001.11495) 
 <details>
 <summary> Abstract </summary>
 <br>
@@ -23,7 +23,7 @@ This letter introduces a new framework for quantifying predictive uncertainty fo
 2020:
 ===
 
-3. Singh, R. and Principe, J., 2020, August. **Time Series Analysis using a Kernel based Multi-Modal Uncertainty Decomposition Framework**. In Conference on Uncertainty in Artificial Intelligence (pp. 1368-1377). PMLR. [(Paper Link)](http://proceedings.mlr.press/v124/singh20a.html)
+Singh, R. and Principe, J., 2020, August. **Time Series Analysis using a Kernel based Multi-Modal Uncertainty Decomposition Framework**. In Conference on Uncertainty in Artificial Intelligence (pp. 1368-1377). PMLR. [(Paper Link)](http://proceedings.mlr.press/v124/singh20a.html)
 <details>
 <summary> Abstract </summary>
 <br>
@@ -31,7 +31,7 @@ This paper proposes a kernel based information theoretic framework with quantum 
 </details>
 
 
-4. R. Singh, S. Yu and J. C. Principe. **Composite Dynamic Texture Synthesis Using Hierarchical Linear Dynamical System**. ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2020, pp. 2757-2761, doi: 10.1109/ICASSP40776.2020.9054084. [(Paper Link)](https://ieeexplore.ieee.org/abstract/document/9054084)
+R. Singh, S. Yu and J. C. Principe. **Composite Dynamic Texture Synthesis Using Hierarchical Linear Dynamical System**. ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2020, pp. 2757-2761, doi: 10.1109/ICASSP40776.2020.9054084. [(Paper Link)](https://ieeexplore.ieee.org/abstract/document/9054084)
 <details>
 <summary> Abstract </summary>
 <br>
@@ -41,7 +41,7 @@ We demonstrate that a systematic inclusion of prior structural constraints on th
 2019:
 ===
 
-5. Singh, R. and Principe, J.C., 2019. **A New Uncertainty Framework for Stochastic Signal Processing**. [(Paper Link)](https://arxiv.org/abs/1904.13038)
+Singh, R. and Principe, J.C., 2019. **A New Uncertainty Framework for Stochastic Signal Processing**. [(Paper Link)](https://arxiv.org/abs/1904.13038)
 <details>
 <summary> Abstract </summary>
 <br>
@@ -51,7 +51,7 @@ The fields of signal processing and information theory have evolved with the goa
 2018:
 ===
 
-6. Singh, R. and Principe, J.C., 2018, July. **Correntropy based hierarchical linear dynamical system for speech recognition**. In 2018 International Joint Conference on Neural Networks (IJCNN) (pp. 1-7). IEEE. [(Paper Link)](https://ieeexplore.ieee.org/abstract/document/8489775)
+Singh, R. and Principe, J.C., 2018, July. **Correntropy based hierarchical linear dynamical system for speech recognition**. In 2018 International Joint Conference on Neural Networks (IJCNN) (pp. 1-7). IEEE. [(Paper Link)](https://ieeexplore.ieee.org/abstract/document/8489775)
 <details>
 <summary> Abstract </summary>
 <br>
@@ -61,7 +61,7 @@ Hierarchical Linear Dynamical System (HLDS) is a recently introduced Kalman filt
 2015:
 ===
 
-7. Singh, R., Sekhsaria, S. and Kulandhaivelu, S., **Novel Rotor Position Estimation Technique For Switched Reluctance Motor Using Vibration Signature Analysis**. National Power Electronics Conference (NPEC) 2013. [(Paper Link - PDF)](https://www.ee.iitb.ac.in/npec/Papers/Program/NPEC_2015_paper_62.pdf)
+Singh, R., Sekhsaria, S. and Kulandhaivelu, S., **Novel Rotor Position Estimation Technique For Switched Reluctance Motor Using Vibration Signature Analysis**. National Power Electronics Conference (NPEC) 2013. [(Paper Link - PDF)](https://www.ee.iitb.ac.in/npec/Papers/Program/NPEC_2015_paper_62.pdf)
 <details>
 <summary> Abstract </summary>
 <br>
@@ -70,7 +70,7 @@ In this paper, we present a novel technique to estimate the position of the roto
 
 2013:
 ===
-8. Singh, R., Umashankar, S., Vijaykumar, D. and Kothari, D.P., 2013, April. **Dynamic braking of induction motor-Analysis of conventional methods and an efficient multistage braking model**. In 2013 International Conference on Energy Efficient Technologies for Sustainability (pp. 197-206). IEEE. [(Paper Link)](https://ieeexplore.ieee.org/abstract/document/6533382)
+Singh, R., Umashankar, S., Vijaykumar, D. and Kothari, D.P., 2013, April. **Dynamic braking of induction motor-Analysis of conventional methods and an efficient multistage braking model**. In 2013 International Conference on Energy Efficient Technologies for Sustainability (pp. 197-206). IEEE. [(Paper Link)](https://ieeexplore.ieee.org/abstract/document/6533382)
 <details>
 <summary> Abstract </summary>
 <br>
