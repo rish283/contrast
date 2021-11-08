@@ -17,14 +17,14 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: "Home", icon: home}
-  - {url: "/rish.pdf", title: "CV"}
   - {file: "research.md", title: "Research"}
   - {file: "publications.md", title: "Publications"}
   - {file: "talks.md", title: "Talks"}
   - {file: "industry.md", title: "Industry"}
+  - {url: "/rish.pdf", title: "CV"}
+  - {file: "/rish_bio.pdf", title: "Bio"}
   - {file: "undergraduate.md", title: "Undergraduate"}
   - {file: "service.md", title: "Service"}
-  - {file: "bio.md", title: "Bio"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:rish283@ufl.edu"}
