@@ -24,6 +24,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "industry.md", title: "Industry"}
   - {file: "undergraduate.md", title: "Undergraduate"}
   - {file: "service.md", title: "Service"}
+  - {file: "bio.md", title: "Bio"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:rish283@ufl.edu"}
