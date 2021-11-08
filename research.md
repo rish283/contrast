@@ -2,9 +2,7 @@
 layout: page
 title: "Dissertation Reaserch:"
 ---
-
+<img style="float: left; padding-right:25px" src="assets/fm3.JPG" width="70%" height="70%">
 RKHS based Physical Interpretation of Model Predictive Uncertainty
 ===
-<!-- <img src="assets/fm3.png"  class="img-responsive" alt=""> </div> -->
-<img style="float: left; padding-right:25px" src="assets/fm3.JPG" width="70%" height="70%">
 In this work, we combine the expressive power of the Gaussian RKHS and the accuracy of quantum physics to create a framework for quantifying the predictive uncertainty of a neural network model.
