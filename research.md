@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Dissertation Reaserch:"
+title: "Dissertation Research:"
 ---
 
 RKHS based Physical Interpretation of Model Predictive Uncertainty
