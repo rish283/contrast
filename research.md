@@ -66,10 +66,10 @@ Our approach: Quantify the local gradient flow (heterogeneity) of $$p(y^*|x^*, \
 Inspired by quantum mathematics we propose to use the Schrodinger’s equation, which includes the Laplacian of the wavefunction, to estimate the local gradient flow of $\psi_\mathbf{w}$. Unlike quantum mechanics that utilizes an Hilbert space, we will be estimating the solution in a RKHS, with the great advantage that we can use the kernel trick to compute the solution in the input space, directly from samples:
     <br />
     <br />
-       $$H_0^k = E_\mathbf{w}^k + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k}{\psi_\mathbf{w}^k}$$
+       $$H_0^k = E_\mathbf{w}^k + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k}{\psi_\mathbf{w}^k}$$  (Visit [paper 1](https://arxiv.org/abs/2109.10888) and [paper 2](https://arxiv.org/abs/2001.11495) for derivation and more details!)
     <br />
     <br />
-$k$ denotes moment index. $$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **are the QIPF uncertainty moments evaluated at model prediction $$\mathbf{y^*}$$**. (Visit [paper 1](https://arxiv.org/abs/2109.10888) and [paper 2](https://arxiv.org/abs/2001.11495) for derivation and more details!).
+$k$ denotes moment index. $$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **are the QIPF uncertainty moments evaluated at model prediction $$\mathbf{y^*}$$**.
 
 Illustrative Results: 
 ---
