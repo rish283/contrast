@@ -3,7 +3,7 @@ layout: page
 title: "PhD Research:"
 ---
 
-<ins>RKHS based Physical Interpretation of Model Uncertainty: The QIPF</ins>
+<ins>RKHS BASED PHYSICAL INTERPRETATION OF MODEL UNCERTAINTY: THE QIPF</ins>
 ===
 
 <img style="float: left; padding-right:25px" src="/fm3.JPG" width="50%" height="50%">
