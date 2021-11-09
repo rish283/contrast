@@ -12,3 +12,5 @@ In this work, we combine the expressive power of the Gaussian RKHS and accuracy 
 
 Goal: 
 ---
+
+$x = 2$
