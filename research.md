@@ -28,7 +28,7 @@ MathJax.Hub.Queue(function() {
 <br />
 <br />
 <br />
-
+<br />
 Goal: 
 ---
 
