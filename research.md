@@ -32,7 +32,7 @@ MathJax.Hub.Queue(function() {
 
 Goal: 
 ---
-Consider a $k$-class classification problem with training dataset $$\mathbf{D} = \{x_{i}, y_{i}\}_{i=1}^N$$ consisting of $d$-dimensional input vectors $x_i \in \mathbb{R}^d$ and the corresponding target labels $y_i \in \{1...k\}$. Assume that a point-prediction neural network with weights $\mathbf{w}$ learns an implicit distribution $p(y|x, \mathbf{w})$ and its output corresponding to a test input $$x^*$$ is $$y^*$$. **Our goal is to come up with a pseudo probability (or uncertainty) measure for the implicit posterior predictive PDF $$p(y^*|x^*, \mathbf{w})$$.**
+Consider a $k$-class classification problem with training dataset $$\mathbf{D} = \{x_{i}, y_{i}\}_{i=1}^N$$ consisting of $d$-dimensional input vectors $x_i \in \mathbb{R}^d$ and the corresponding target labels $y_i \in \{1...k\}$. Assume that a point-prediction neural network with weights $\mathbf{w}$ learns an implicit distribution $p(y|x, \mathbf{w})$ and its output corresponding to a test input $$x^*$$ is $$y^*$$. **Our goal is to come up with a pseudo-probability (or uncertainty) measure for the true implicit posterior predictive PDF $$p(y^*|x^*, \mathbf{w})$$.**
 <br />
 <br />
 The problem is further made challenging by covariate shift of the test-set so that underlying distribution of input test data changes from $p(x|\lambda)$ during training to $p(x^*|\gamma)$ during testing (where $\lambda$ and $\gamma$ are parameters of the underlying distributions), while the target conditional distribution remains the same, i.e. $$p(y|x) = p(y^*|x^*)$$.
