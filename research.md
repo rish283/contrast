@@ -31,7 +31,7 @@ MathJax.Hub.Queue(function() {
 <br /> -->
 
 Goal: 
----
-Consider a $k$-class classification problem with training dataset $\mathbf{D} = \{x_{i}, y_{i}\}_{i=1}^N$ consisting of $d$-dimensional input vectors $x_i \in \mathbb{R}^d$ and the corresponding target labels $y_i \in \{1...k\}$. Assume that a point-prediction neural network with weights $\mathbf{w}$ learns an implicit distribution $p(y|x, \mathbf{w})$ and its output corresponding to a test input $\hat{x}$ is $\hat{y}$. Our goal is to best estiamte probability envelope $P(\hat{y}|\hat{x}, \mathbf{w})$.
+---Consider a $k$-class classification problem with training dataset $\mathbf{D} = \{x_{i}, y_{i}\}_{i=1}^N$ consisting of $d$-dimensional input vectors $x_i \in \mathbb{R}^d$ and the corresponding target labels $y_i \in \{1...k\}$. Assume that a point-prediction neural network with weights $\mathbf{w}$ learns an implicit distribution $p(y|x, \mathbf{w})$ and its output corresponding to a test input $\hat{x}$ is $\hat{y}$. <ins>Our goal is to best estiamte probability envelope $p(\hat{y}|\hat{x}, \mathbf{w})$<\ins>.
+<br />
 <br />
 Further, this problem is made more challenging 
