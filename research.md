@@ -40,12 +40,10 @@ Approach:
 ---
 A Bayesian approach to accomplish this involves methods for approximating the posterior predictive PDF of the model (a problem of marginalization over weights): $$p(y^*|x^*, D) = \int{p(y^*|x^*, \mathbf{w})p(\mathbf{w}|\mathbf{D})d\mathbf{w}}$$.
 <br />
-Our approach begins with projection (mean embedding) of trained neural network weights in a Gaussian RKHS to estimate the implicit weight PDF: $$p(\hat{y}|\hat{x}, \mathbf{w}) \approx \psi_{\mathbf{W}} = \frac{1}{n}\sum_{t=1}^{n}G_\sigma(w_t, .)$$
+Our approach begins with projection (mean embedding) of trained neural network weights in a Gaussian RKHS to estimate the implicit weight PDF: $$p(y^*|x^*, \mathbf{w}) \approx \psi_{\mathbf{w}} = \frac{1}{n}\sum_{t=1}^{n}G_\sigma(w_t, .)$$
     
 Illustrative Results: 
 ---
-
-    
     
 Related Papers: 
 ---
