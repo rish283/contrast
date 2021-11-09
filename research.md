@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "PhD Research:"
+title: "PhD RESEARCH:"
 ---
 
 <ins>RKHS based Physical Interpretation of Model Uncertainty: The QIPF</ins>
