@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "PhD Research:"
+title: "Research Work:"
 ---
 
 <style TYPE="text/css">
