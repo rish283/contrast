@@ -24,8 +24,8 @@ MathJax.Hub.Queue(function() {
 
 <center>
 <ins>RKHS based Physical Interpretation of Model Uncertainty: The QIPF</ins>
-===
 </center>
+===
 
 <figure>
 <p align="center" height="80%" width="80%">
