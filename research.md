@@ -64,6 +64,10 @@ $k$ denotes moment index. $$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **
 
 Illustrative Results: 
 ---
+
+<img style="float: left; padding-right:25px" src="/r1.jpg" width="55%" height="55%">
+<br />
+<img style="float: left; padding-right:25px" src="/r2.jpg" width="55%" height="55%">
     
 Related Papers: 
 ---
