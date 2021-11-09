@@ -24,7 +24,10 @@ MathJax.Hub.Queue(function() {
 
 <ins>RKHS based Physical Interpretation of Model Uncertainty: The QIPF</ins>
 ===
-<img style="float: left; padding-right:25px" src="/fm3.JPG" width="55%" height="55%">In this work, we combine the expressive power of the Gaussian reproducing kernel Hilbert space (RKHS) and high local resolution of quantum physics to create a framework, called the quantum information potential field (QIPF), for quantifying the predictive uncertainty of a neural network model. We show that the QIPF is significantly more precise, better calibrated and much faster than typical Bayesian approaches for model uncertainty quantification, especially in situations involving distributional shifts in the test-set.
+<figure>
+<img style="float: left; padding-right:25px" src="/fm3.JPG" width="55%" height="55%">
+<figcaption align = "center"><b>Fig.1 - 4K Mountains Wallpaper</b></figcaption>
+</figure>In this work, we combine the expressive power of the Gaussian reproducing kernel Hilbert space (RKHS) and high local resolution of quantum physics to create a framework, called the quantum information potential field (QIPF), for quantifying the predictive uncertainty of a neural network model. We show that the QIPF is significantly more precise, better calibrated and much faster than typical Bayesian approaches for model uncertainty quantification, especially in situations involving distributional shifts in the test-set.
 <br />
 <br />
 <br />
@@ -64,11 +67,20 @@ $k$ denotes moment index. $$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **
 
 Illustrative Results: 
 ---
-
+<figure>
 <img style="float: left; padding-right:25px" src="/r1.jpg" width="100%" height="100%">
-<br />
-<img style="float: left; padding-right:25px" src="/r2.jpg" width="100%" height="100%">
+<figcaption align = "center"><b>Fig.1 - 4K Mountains Wallpaper</b></figcaption>
+</figure>
     
+<br />
+    
+<figure>
+<img style="float: left; padding-right:25px" src="/r2.jpg" width="100%" height="100%">
+<figcaption align = "center"><b>Fig.1 - 4K Mountains Wallpaper</b></figcaption>
+</figure>
+ 
+<br />
+
 Related Papers: 
 ---
 Singh, R. and Principe, J.C., 2021. **Quantifying Model Predictive Uncertainty with Perturbation Theory**. (Under Review) [(Paper Link)](https://arxiv.org/abs/2109.10888)
