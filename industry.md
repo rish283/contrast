@@ -3,7 +3,7 @@ layout: page
 title: "Industrial Experience"
 ---
 
-1. Aventusoft LLC: Research Scientist Intern (May, 2020 - August, 2020)
+- Aventusoft LLC: Research Scientist Intern (May, 2020 - August, 2020)
 ===
 
 Boca Raton, Florida, USA
@@ -15,7 +15,7 @@ Boca Raton, Florida, USA
 <br />
 <br />
 
-2. Tata Motors Limited: Assistant Manager (May, 2014 - May, 2016)
+- Tata Motors Limited: Assistant Manager (May, 2014 - May, 2016)
 ===
 
 Pune, Maharashtra, India
