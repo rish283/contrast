@@ -43,16 +43,22 @@ A Bayesian approach to accomplish this involves methods for approximating the po
 <br />
 Our approach: Quantify the local gradient flow (heterogeneity) of $$p(y^*|x^*, \mathbf{w})$$. In other words, quantify how optimized weight $\mathbf{w}$ are to make predictions in the vicinity of $$y^*$$. This is done in the three steps:
     <br />
+    <br />
     1. Projection (mean embedding) of weights in a Gaussian RKHS to estimate the implicit weight PDF: $$p(y^*|x^*, \mathbf{w}) \approx \psi_{\mathbf{w}}(y^*) = \frac{1}{n}\sum_{t=1}^{n}G_\sigma(w_t, y^*)$$.
+    <br />
     <br />
     2. Quantification of local gradient flow of $$p(y^*|x^*, \mathbf{w})$$ using Laplacian operator based formulation: $$\nabla_y^2\psi_\mathbf{w}(y^*) \approx p(y^* + \Delta{y^*}|x^*, \mathbf{w}) - p(y^*|x^*, \mathbf{w})$$.
     <br />
+    <br />
     3. Moment decomposition of $$\nabla_y^2\psi_\mathbf{w}(y^*)$$ for high resolution information extraction of heterogeneity: $$\nabla_y^2\psi_\mathbf{w}(y^*) = \psi_\mathbf{w}^0(y^*) + \lambda\psi_\mathbf{w}^1(y^*) + \lambda^2\psi_\mathbf{w}^2(y^*) + ...$$.
+    <br />
     <br />
 Inspired by quantum mathematics we propose to use the Schrodinger’s equation, which includes the Laplacian of the wavefunction, to estimate the local gradient flow of $\psi_\mathbf{w}$. Unlike quantum mechanics that utilizes an Hilbert space, we will be estimating the solution in a RKHS, with the great advantage that we can use the kernel trick to compute the solution in the input space, directly from samples:
     <br />
        $$H_0^k = E_\mathbf{w}^k + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k}{\psi_\mathbf{w}^k}$$
-    
+    <br />
+$k$ denoted moment index. **H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...are the QIPF uncertainty moments evaluated at model prediction $$y^*$$**. (Visit [(paper 1)](https://arxiv.org/abs/2109.10888) and [(paper 2)](https://arxiv.org/abs/2001.11495) for derivation and more details!).
+
 Illustrative Results: 
 ---
     
