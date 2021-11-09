@@ -3,11 +3,6 @@ layout: page
 title: "PhD Research:"
 ---
 
-In this work, we combine the expressive power of the Gaussian RKHS and accuracy of quantum physics to create a framework, called the quantum information potential field (QIPF), for quantifying the predictive uncertainty of a neural network model. We show that the QIPF is significantly more precise, better calibrated and much faster than typical Bayesian approaches, especially in situations involving distributional shifts in the test-set.
-
-Goal: 
----
-
 <style TYPE="text/css">
 code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
 </style>
@@ -27,13 +22,12 @@ MathJax.Hub.Queue(function() {
 </script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
-
 <ins>RKHS based Physical Interpretation of Model Uncertainty: The QIPF</ins>
 ===
+In this work, we combine the expressive power of the Gaussian RKHS and accuracy of quantum physics to create a framework, called the quantum information potential field (QIPF), for quantifying the predictive uncertainty of a neural network model. We show that the QIPF is significantly more precise, better calibrated and much faster than typical Bayesian approaches, especially in situations involving distributional shifts in the test-set.
 
+Goal: 
+---
 <img style="float: left; padding-right:25px" src="/fm3.JPG" width="50%" height="50%">
-
-
-
 
 $x=2$
