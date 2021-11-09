@@ -25,7 +25,9 @@ MathJax.Hub.Queue(function() {
 <ins>RKHS based Physical Interpretation of Model Uncertainty: The QIPF</ins>
 ===
 <figure>
-<img style="float: center" src="/fm3.JPG" width="60%" height="60%">
+<p align="center">
+<img width="60%" height="60%" src="/fm3.JPG">
+</p>
 <figcaption align = "center"><b>Fig.1 - Proposed approach: Moments extracted from the local interaction of the model output with the RKHS potential field of the weights quantify the output uncertainty.</b></figcaption>
 </figure>
 
