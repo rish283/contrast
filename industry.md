@@ -14,4 +14,4 @@ Boca Raton, Florida, USA
 ===
 Pune, Maharashtra, India
 ---
-<img style="float: left; padding-right:25px" src="/tm.jpg">I worked at the Commercial Vehicle Business Unit (CVBU) of Tata Motors (Pune plant) in the Auto Maintenance Electronics department. My job role involved studying vehicle assembly line automation systems and suggesting improvements with respect to safety, maintenance and productivity of the systems as well as carrying out maintenance operations if necessary.
+<img style="float: left; padding-right:25px" src="/tm.jpg" width="30%" height="30%">I worked at the Commercial Vehicle Business Unit (CVBU) of Tata Motors (Pune plant) in the Auto Maintenance Electronics department. My job role involved studying vehicle assembly line automation systems and suggesting improvements with respect to safety, maintenance and productivity of the systems as well as carrying out maintenance operations if necessary.
