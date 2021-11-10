@@ -71,7 +71,7 @@ Inspired by quantum mathematics we propose to use the Schrodinger’s equation, 
        $$H_0^k = E_\mathbf{w}^k + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k}{\psi_\mathbf{w}^k}$$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Visit [paper 1](https://arxiv.org/abs/2109.10888) and [paper 2](https://arxiv.org/abs/2001.11495) for derivation and more details!)
     <br />
     <br />
-$k$ denotes moment index. $$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **are the QIPF uncertainty moments evaluated at model prediction $$\mathbf{y^*}$$**.
+$k$ denotes moment index. $$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **are the QIPF uncertainty modes evaluated at model prediction $$\mathbf{y^*}$$**. They represent the different degrees to which the weight PDF is regularized around $$y^*$$.
     
 <br />
     
