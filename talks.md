@@ -15,7 +15,7 @@ Coming soon !!
 
 Conference on Uncertainty in Artificial Intelligence (UAI) 2020:
 ---
-<h3>Time Series Analysis using a Kernel based Uncertainty Framework</h3>
+<h3>Time Series Analysis using a Kernel based Uncertainty Decomposition Framework</h3>
 
 <br />
 
