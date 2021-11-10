@@ -22,7 +22,7 @@ MathJax.Hub.Queue(function() {
 </script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
-<ins><center> <h1>RKHS based Physical Interpretation of Model Uncertainty: The QIPF</h1> </center></ins>
+<center> <h1> <ins>RKHS based Physical Interpretation of Model Uncertainty: The QIPF</ins> </h1> </center>
 <!-- <center>
 <ins>RKHS based Physical Interpretation of Model Uncertainty: The QIPF</ins>
 </center>
