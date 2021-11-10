@@ -1,6 +1,6 @@
 ---
 layout: page
-title: I served as a reviewer for the following venues:
+title: Reviewer Service
 ---
 
 1. IEEE Transactions on Neural Networks and Learning Systems
