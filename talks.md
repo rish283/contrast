@@ -5,24 +5,21 @@ title: "TALKS"
 
 NeurIPS Worshop on Distributional Shifts (DistShift) 2021:
 ---
-<h3>Quantifying Model Uncertainty using Perturbation theory</h3>
+Quantifying Model Uncertainty using Perturbation theory
 
 <br />
-
-Coming soon !!
-
 <br />
 
 Conference on Uncertainty in Artificial Intelligence (UAI) 2020:
 ---
-<h3>Time Series Analysis using a Kernel based Uncertainty Decomposition Framework</h3>
+Time Series Analysis using a Kernel based Uncertainty Decomposition Framework
 
 <br />
 <br />
 
 International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2020: 
 ---
-<h3>Composite Dynamic Texture Synthesis Using Hierarchical Linear Dynamical System</h3>
+Composite Dynamic Texture Synthesis Using Hierarchical Linear Dynamical System
 
 <br />
 <br />
@@ -32,6 +29,7 @@ International Conference on Acoustics, Speech and Signal Processing (ICASSP) 202
 A Quantum Theory Inspired Framework for Uncertainty Quantification
 ---
 IEEE International Conference on Data Science and Advanced Analytics (DSAA)
+<br />
 Speaker: Dr. Jose C. Principe
 <details>
 <summary> Abstract </summary>
