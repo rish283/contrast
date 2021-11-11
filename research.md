@@ -39,14 +39,15 @@ In this work, we combine the expressive power of the Gaussian reproducing kernel
 <!-- <br /> -->
 <!-- <br /> -->
     
-<div class="show-hide">
-  <input type="checkbox" class="read-more-state" id="visible" />
-  <div class="read-more-wrap">
-    <p>Visible Text</p>
-    <p class="read-more-target">Hidden Text</p>
-  </div>
-  <label for="visible" class="read-more-trigger"></label>
-</div>
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
 
 Goal:
 ---
