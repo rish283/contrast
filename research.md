@@ -30,7 +30,7 @@ MathJax.Hub.Queue(function() {
 
 <figure>
 <img style="float: center" src="/kk.jpg">
-<figcaption align = "center"><b>Fig.1 - Proposed approach: Moments extracted from the local interaction of the model output with the RKHS potential field of the weights quantify the output uncertainty.</b></figcaption>
+<figcaption align = "center"><b>Proposed approach: Moments extracted from the local interaction of the model output with the RKHS potential field of the weights quantify the output uncertainty.</b></figcaption>
 </figure>
 
 In this work, we combine the expressive power of the Gaussian reproducing kernel Hilbert space (RKHS) and high local resolution of quantum physics to create a framework, called the quantum information potential field (QIPF), for quantifying the predictive uncertainty of a neural network model. We show that the QIPF is significantly more precise, better calibrated and much faster than typical Bayesian approaches for model uncertainty quantification, especially in situations involving distributional shifts in the test-set.
@@ -82,14 +82,14 @@ Illustrative Results:
 ---
 <figure>
 <img style="float: center" src="/r1.jpg" width="100%" height="100%">
-<figcaption align = "center"><b>Fig.2 - (a) QIPF modes of a sine-wave in data space. Tail regions of the PDF are seen to be efficiently quantified by QIPF modes. (b, c): Model uncertainty: (b) shows the high sensitivity of the QIPF with respect to model’s seen and unseen data regions. (c) shows it to be well calibrated with model’s regularization.</b></figcaption>
+<figcaption align = "center"><b>(a) QIPF modes of a sine-wave in data space. Tail regions of the PDF are seen to be efficiently quantified by QIPF modes. (b, c): Model uncertainty: (b) shows the high sensitivity of the QIPF with respect to model’s seen and unseen data regions. (c) shows it to be well calibrated with model’s regularization.</b></figcaption>
 </figure>
     
 <br />
     
 <figure>
 <img style="float: center" src="/r2.jpg" width="100%" height="100%">
-<figcaption align = "center"><b>Fig.3 - MNIST illustrative example: (a) shows the histograms of uncertainty estimates where QIPF can be seen to achieve better class-separation between correct and wrong predictions (very low overlap). (c) and (d) show corresponding error detection ROC and precision-recall curves, (e), (f) and (g) show the graphs of ROC-AUC, PR-AUC and PT-Biserial Corr. vs noise internsity. QIPF framework can be seen to have better performance.</b></figcaption>
+<figcaption align = "center"><b>MNIST illustrative example: (a) shows the histograms of uncertainty estimates where QIPF can be seen to achieve better class-separation between correct and wrong predictions (very low overlap). (c) and (d) show corresponding error detection ROC and precision-recall curves, (e), (f) and (g) show the graphs of ROC-AUC, PR-AUC and PT-Biserial Corr. vs noise internsity. QIPF framework can be seen to have better performance.</b></figcaption>
 </figure>
  
 <br />
