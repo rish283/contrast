@@ -116,6 +116,12 @@ This letter introduces a new framework for quantifying predictive uncertainty fo
     
 ---
     
+<center> <h1> <ins>Time Series Data Analysis using Kernel Uncertainty Framework</ins> </h1> </center>
+    
+<figure>
+<img style="float: center" src="/kk.jpg">
+<figcaption align = "center"><b>Proposed approach: Moments extracted from the local interaction of the model output with the RKHS potential field of the weights quantify the output uncertainty.</b></figcaption>
+</figure>
 
     
     
