@@ -45,8 +45,6 @@ In this work, we combine the expressive power of the Gaussian reproducing kernel
 
 
 ## Goal:
----
-
 Consider a $k$-class classification problem with training dataset $$\mathbf{D} = \{x_{i}, y_{i}\}_{i=1}^N$$ consisting of $d$-dimensional input vectors $x_i \in \mathbb{R}^d$ and the corresponding target labels $y_i \in \{1...k\}$. Assume that a point-prediction neural network with weights $\mathbf{w}$ learns an implicit distribution $p(y|x, \mathbf{w})$ and its output corresponding to a test input $$x^*$$ is $$y^*$$. **Our goal is to come up with a pseudo-probability (or uncertainty) measure for the true implicit posterior predictive PDF $$p(y^*|x^*, \mathbf{w})$$.**
 <br />
 <br />
@@ -55,7 +53,6 @@ The problem is further made challenging by covariate shift of the test-set so th
 <br />
     
 ## Approach: 
----
 A Bayesian approach to accomplish this involves methods for approximating the posterior predictive PDF of the model (a problem of marginalization over weights): $$p(y^*|x^*, \mathbf{D}) = \int{p(y^*|x^*, \mathbf{w})p(\mathbf{w}|\mathbf{D})d\mathbf{w}}$$.
 <br />
 <br />
@@ -82,7 +79,6 @@ $k$ denotes moment index. $$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **
 <br />
     
 ## Illustrative Results: 
----
 <figure>
 <img style="float: center" src="/r1.jpg" width="100%" height="100%">
 <figcaption align = "center"><b>(a) QIPF modes of a sine-wave in data space. Tail regions of the PDF are seen to be efficiently quantified by QIPF modes. (b, c): Model uncertainty: (b) shows the high sensitivity of the QIPF with respect to model’s seen and unseen data regions. (c) shows it to be well calibrated with model’s regularization.</b></figcaption>
@@ -97,8 +93,7 @@ $k$ denotes moment index. $$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **
  
 <br />
 
-## Related Papers: 
----
+## Related Papers:
 Singh, R. and Principe, J.C., 2021. **Quantifying Model Predictive Uncertainty with Perturbation Theory**. (Under Review) [(Paper Link)](https://arxiv.org/abs/2109.10888)
 <details>
 <summary> Abstract </summary>
