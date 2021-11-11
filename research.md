@@ -41,7 +41,9 @@ In this work, we combine the expressive power of the Gaussian reproducing kernel
     
 <details>
 
-  <summary>Click to read more!</summary>
+<summary>
+Click to read more!
+</summary>
 
 
 Goal:
