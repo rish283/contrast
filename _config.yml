@@ -17,8 +17,8 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: "Home", icon: home}
-  - {file: "research.md", title: "Research"}
-    - {file: "Model_unc.md", title: "Model Uncertainty"}
+  - {file: "research.md", title: "Research"}:
+     - {file: "Model_unc.md", title: "Model Uncertainty"}
   - {file: "publications.md", title: "Publications"}
   - {file: "talks.md", title: "Talks"}
   - {file: "industry.md", title: "Industry"}
