@@ -120,5 +120,5 @@ This letter introduces a new framework for quantifying predictive uncertainty fo
     
 <figure>
 <img style="float: center" src="/frmm.jpg">
-<figcaption align = "center"><b>Proposed implementation of QIPF uncertainty framework for time series analysis.</b></figcaption>
+<figcaption align = "center"><b>Proposed decomposition of time series signal using QIPF uncertainty framework.</b></figcaption>
 </figure>
