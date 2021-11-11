@@ -119,6 +119,6 @@ This letter introduces a new framework for quantifying predictive uncertainty fo
 <center> <h1> <ins>Time Series Data Analysis using Kernel Uncertainty Framework</ins> </h1> </center>
     
 <figure>
-<img style="float: center" src="/frm22.jpg">
+<img style="float: center" src="/frmm.jpg">
 <figcaption align = "center"><b>Proposed implementation of QIPF uncertainty framework for time series analysis.</b></figcaption>
 </figure>
