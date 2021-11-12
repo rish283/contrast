@@ -45,5 +45,5 @@ Making Deep Neural Networks Transparent by Information Theory
 ---
 Microsoft Presentation
 <br />
-Speaker: Shujian Yu
+Speaker: Dr. Shujian Yu
  
