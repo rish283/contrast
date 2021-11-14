@@ -108,4 +108,4 @@ This letter introduces a new framework for quantifying predictive uncertainty fo
 </details>
 
 
-[Return to research page](\research.md)
+[Return to research page](https://github.com/rish283/rish283.github.io/blob/2d7258279ce3bcbb462e34eda74a732b7b8a9946/research.md)
