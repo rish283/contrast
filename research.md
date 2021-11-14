@@ -109,7 +109,7 @@ Singh, R. and Principe, J.C., 2021. **Toward a Kernel-Based Uncertainty Decompos
 This letter introduces a new framework for quantifying predictive uncertainty for both data and models that relies on projecting the data into a gaussian reproducing kernel Hilbert space (RKHS) and transforming the data probability density function (PDF) in a way that quantifies the flow of its gradient as a topological potential field (quantified at all points in the sample space). This enables the decomposition of the PDF gradient flow by formulating it as a moment decomposition problem using operators from quantum physics, specifically Schrödinger's formulation. We experimentally show that the higher-order moments systematically cluster the different tail regions of the PDF, thereby providing unprecedented discriminative resolution of data regions having high epistemic uncertainty. In essence, this approach decomposes local realizations of the data PDF in terms of uncertainty moments. We apply this framework as a surrogate tool for predictive uncertainty quantification of point-prediction neural network models, overcoming various limitations of conventional Bayesian-based uncertainty quantification methods. Experimental comparisons with some established methods illustrate performance advantages that our framework exhibits.
 </details> -->
 
-<!-- ---
+---
     
 <center> <h1> <ins>Time Series Data Analysis using Kernel Uncertainty Framework</ins> </h1> </center>
     
@@ -117,4 +117,4 @@ This letter introduces a new framework for quantifying predictive uncertainty fo
 <img style="float: center" src="/frmm.jpg">
 <figcaption align = "center"><b>Proposed decomposition of time series signal using QIPF uncertainty framework.</b></figcaption>
 </figure>
- -->
+
