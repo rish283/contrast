@@ -117,4 +117,7 @@ This letter introduces a new framework for quantifying predictive uncertainty fo
 <img style="float: center" src="/frmm.jpg">
 <figcaption align = "center"><b>Proposed decomposition of time series signal using QIPF uncertainty framework.</b></figcaption>
 </figure>
-
+    
+We leverage our Gaussian RKHS based uncertainty decomposition framework (the QIPF) as a "dynamic potential field" for the analysis of time series data. This leads to an energy-based formulation of the time series signal that is now represented in terms of multiple moments of uncertainty at each data sample. Preliminary experiments show that QIPF features of time series data can be very useful for applications like anomaly detection and clustering.
+    
+[Click here to read more!](/timeseries_uq.md)
