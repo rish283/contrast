@@ -23,6 +23,7 @@ MathJax.Hub.Queue(function() {
 <img style="float: center" src="/frmm.jpg">
 <figcaption align = "center"><b>Proposed decomposition of time series signal using QIPF uncertainty framework.</b></figcaption>
 </figure>
+ 
 In this work, we utilize the QIPF, an RKHS based uncertainty decomposition framework, to obtain a physical viewpoint of time series signal dynamics. More concretely, we leverage the QIPF as a dynamic potential field (embedding space) that automatically and sensitively adapts its local structure according to data, for the analysis of time series signals. We consequently arrive at an energy-based formulation of the time series signal that is now represented in terms of multiple moments of uncertainty at each data sample. Preliminary experiments show that QIPF features of time series data can be very useful for applications like anomaly detection and clustering. The main idea here is to introduce a new information theoretic framework to accomplish pattern recognition tasks associated with time series data that is usually not achievable by classical information theoretic methods due to their inability to quantify sample-by-sample dynamics of the signal (important in online time series analysis). It is for this reason that we look towards quantum physics, which provides a principled quantification of particle-particle dynamics in a physical system, to interpret data.
 
 <br />
