@@ -65,10 +65,7 @@ Inspired by quantum mathematics we propose to use the Schrodinger’s equation, 
        $$H_0 = E_\mathbf{w} + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}}{\psi_\mathbf{w}}$$ 
     <br />
     <br />
-    3. The final step involves moment decomposition of the PDF gradient flow, $$\nabla_y^2\psi_\mathbf{w}(y^*)$$, for high resolution information extraction of heterogeneity around $$y^*$$ (which quantifies uncertainty): $$\nabla_y^2\psi_\mathbf{w}(y^*) = \psi_\mathbf{w}^0(y^*) + \lambda\psi_\mathbf{w}^1(y^*) + \lambda^2\psi_\mathbf{w}^2(y^*) + ...$$.
-    <br />
-    <br />
-This is achieved via solution of $$H_0$$ (in step 2) in terms of its intrinsic moments as follows:
+    3. The final step involves moment decomposition of the PDF gradient flow, $$\nabla_y^2\psi_\mathbf{w}(y^*)$$, for high resolution information extraction of heterogeneity around $$y^*$$ (which quantifies uncertainty): $$\nabla_y^2\psi_\mathbf{w}(y^*) = \psi_\mathbf{w}^0(y^*) + \lambda\psi_\mathbf{w}^1(y^*) + \lambda^2\psi_\mathbf{w}^2(y^*) + ...$$. This is achieved via solution of $$H_0$$ (in step 2) in terms of its intrinsic moments as follows:
     <br />
     <br />
        $$H_0^k = E_\mathbf{w}^k + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k}{\psi_\mathbf{w}^k}$$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Visit [paper 1](https://arxiv.org/abs/2109.10888) and [paper 2](https://arxiv.org/abs/2001.11495) for derivation and more details!)
