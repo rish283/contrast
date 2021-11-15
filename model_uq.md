@@ -44,9 +44,9 @@ Consider a $k$-class classification problem with training dataset $$\mathbf{D} =
 <br />
 <br />
 The problem is further made challenging by covariate shift of the test-set so that underlying distribution of input test data changes from $p(x|\lambda)$ during training to $p(x^*|\gamma)$ during testing (where $\lambda$ and $\gamma$ are parameters of the underlying distributions), while the target conditional distribution remains the same, i.e. $$p(y|x) = p(y^*|x^*)$$.
-    
+
 <br />
-    
+
 ## Approach: 
 A Bayesian approach to accomplish this involves methods for approximating the posterior predictive PDF of the model (a problem of marginalization over weights): $$p(y^*|x^*, \mathbf{D}) = \int{p(y^*|x^*, \mathbf{w})p(\mathbf{w}|\mathbf{D})d\mathbf{w}}$$.
 <br />
@@ -54,22 +54,27 @@ A Bayesian approach to accomplish this involves methods for approximating the po
 Our approach: Quantify the local gradient flow (heterogeneity) of $$p(y^*|x^*, \mathbf{w})$$. In other words, quantify how optimized weight $\mathbf{w}$ are to make predictions in the vicinity of $$y^*$$. This is done in the three steps:
     <br />
     <br />
-    1. Projection (mean embedding) of weights in a Gaussian RKHS to estimate the implicit weight PDF: $$p(y^*|x^*, \mathbf{w}) \approx \psi_{\mathbf{w}}(y^*) = \frac{1}{n}\sum_{t=1}^{n}G_\sigma(w_t, y^*)$$.
+    1. Our first step is the projection (mean embedding) of weights in a Gaussian RKHS to estimate the implicit weight PDF: $$p(y^*|x^*, \mathbf{w}) \approx \psi_{\mathbf{w}}(y^*) = \frac{1}{n}\sum_{t=1}^{n}G_\sigma(w_t, y^*)$$.
     <br />
     <br />
-    2. Quantification of local gradient flow of $$p(y^*|x^*, \mathbf{w})$$ using Laplacian operator based formulation: $$\nabla_y^2\psi_\mathbf{w}(y^*) \approx p(y^* + \Delta{y^*}|x^*, \mathbf{w}) - p(y^*|x^*, \mathbf{w})$$.
+    2. The next step involves quantification of local gradient flow of $$p(y^*|x^*, \mathbf{w})$$ using Laplacian operator based formulation: $$\nabla_y^2\psi_\mathbf{w}(y^*) \approx p(y^* + \Delta{y^*}|x^*, \mathbf{w}) - p(y^*|x^*, \mathbf{w})$$.
+    <br />
+Inspired by quantum mathematics we propose to use the Schrodinger’s equation, which includes the Laplacian of the wavefunction, to estimate the local gradient flow of $\psi_\mathbf{w}$. Unlike quantum mechanics that utilizes an Hilbert space, we estimate the solution in an RKHS, with the great advantage that we can use the kernel trick to compute the solution in the input space, directly from samples. The local gradient flow of $$p(y^*|x^*, \mathbf{w})$$ therefore now takes the form:
     <br />
     <br />
-    3. Moment decomposition of $$\nabla_y^2\psi_\mathbf{w}(y^*)$$ for high resolution information extraction of heterogeneity: $$\nabla_y^2\psi_\mathbf{w}(y^*) = \psi_\mathbf{w}^0(y^*) + \lambda\psi_\mathbf{w}^1(y^*) + \lambda^2\psi_\mathbf{w}^2(y^*) + ...$$.
+       $$H_0 = E_\mathbf{w} + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}}{\psi_\mathbf{w}}$$ 
     <br />
     <br />
-Inspired by quantum mathematics we propose to use the Schrodinger’s equation, which includes the Laplacian of the wavefunction, to estimate the local gradient flow of $\psi_\mathbf{w}$. Unlike quantum mechanics that utilizes an Hilbert space, we will be estimating the solution in a RKHS, with the great advantage that we can use the kernel trick to compute the solution in the input space, directly from samples:
+    3. The final step involves moment decomposition of the PDF gradient flow, $$\nabla_y^2\psi_\mathbf{w}(y^*)$$, for high resolution information extraction of heterogeneity around $$y^*$$ (which quantifies uncertainty): $$\nabla_y^2\psi_\mathbf{w}(y^*) = \psi_\mathbf{w}^0(y^*) + \lambda\psi_\mathbf{w}^1(y^*) + \lambda^2\psi_\mathbf{w}^2(y^*) + ...$$.
+    <br />
+    <br />
+This is achieved via solution of $$H_0$$ (in step 2) in terms of its intrinsic moments as follows:
     <br />
     <br />
        $$H_0^k = E_\mathbf{w}^k + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k}{\psi_\mathbf{w}^k}$$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Visit [paper 1](https://arxiv.org/abs/2109.10888) and [paper 2](https://arxiv.org/abs/2001.11495) for derivation and more details!)
     <br />
     <br />
-$k$ denotes moment index. $$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **are the QIPF uncertainty modes evaluated at model prediction $$\mathbf{y^*}$$**. They represent the different degrees to which the weight PDF is regularized around $$y^*$$.
+where $k$ denotes moment index. $$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **are the QIPF uncertainty modes evaluated at model prediction $$\mathbf{y^*}$$**. They represent the different degrees to which the weight PDF is regularized around $$y^*$$.
     
 <br />
     
