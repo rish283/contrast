@@ -59,6 +59,7 @@ Our approach: Quantify the local gradient flow (heterogeneity) of $$p(y^*|x^*, \
     <br />
     2. The next step involves quantification of local gradient flow of $$p(y^*|x^*, \mathbf{w})$$ using Laplacian operator based formulation: $$\nabla_y^2\psi_\mathbf{w}(y^*) \approx p(y^* + \Delta{y^*}|x^*, \mathbf{w}) - p(y^*|x^*, \mathbf{w})$$.
     <br />
+    <br />
 Inspired by quantum mathematics we propose to use the Schrodinger’s equation, which includes the Laplacian of the wavefunction, to estimate the local gradient flow of $\psi_\mathbf{w}$. Unlike quantum mechanics that utilizes an Hilbert space, we estimate the solution in an RKHS, with the great advantage that we can use the kernel trick to compute the solution in the input space, directly from samples. The local gradient flow of $$p(y^*|x^*, \mathbf{w})$$ therefore now takes the form:
     <br />
     <br />
