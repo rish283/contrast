@@ -33,7 +33,7 @@ MathJax.Hub.Queue(function() {
 <figcaption align = "center"><b>Proposed approach: Moments extracted from the local interaction of the model output with the RKHS potential field of the weights quantify the output uncertainty.</b></figcaption>
 </figure>
 
-In this work, we combine the expressive power of the Gaussian reproducing kernel Hilbert space (RKHS) and high local resolution of quantum physics to create a framework, called the quantum information potential field (QIPF), for quantifying the predictive uncertainty of a neural network model. We show that the QIPF is significantly more precise, better calibrated and much faster than typical Bayesian approaches for model uncertainty quantification, especially in situations involving distributional shifts in the test-set.
+In this work, we combine the expressive power of the Gaussian reproducing kernel Hilbert space (RKHS) and the high local resolution provided by quantum physics to create a local moment based uncertainty desomposition framework, called the quantum information potential field (QIPF), for quantifying the predictive uncertainty of a neural network model. We show that the QIPF moments are significantly more precise, better calibrated and much faster than typical Bayesian approaches for model uncertainty quantification, especially in situations involving distributional shifts in the test-set.
 <br />
 <!-- <br /> -->
 <!-- <br /> -->
