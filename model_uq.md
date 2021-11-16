@@ -29,7 +29,7 @@ MathJax.Hub.Queue(function() {
 === -->
 
 <figure>
-<img style="float: center" src="/kk.jpg", height="60%">
+<img style="float: center" src="/kk.jpg",  width="100%" height="60%">
 <figcaption align = "center"><b>Proposed approach: Moments extracted from the local interaction of the model output with the RKHS potential field of the weights quantify the output uncertainty.</b></figcaption>
 </figure>
 
