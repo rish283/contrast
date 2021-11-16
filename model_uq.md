@@ -55,7 +55,7 @@ Our approach is to quantify the local gradient flow (heterogeneity) of $$p(y^*|x
 <br />
 <br />
 
-(1). Our first step is the projection (mean embedding) of weights in a Gaussian RKHS to estimate the implicit weight PDF: $$p(y^*|x^*, \mathbf{w}) \approx \psi_{\mathbf{w}}(y^*) = \frac{1}{n}\sum_{t=1}^{n}G_\sigma(w_t, y^*)$$.
+(1). The first step is the projection (mean embedding) of weights in a Gaussian RKHS to estimate the implicit weight PDF: $$p(y^*|x^*, \mathbf{w}) \approx \psi_{\mathbf{w}}(y^*) = \frac{1}{n}\sum_{t=1}^{n}G_\sigma(w_t, y^*)$$.
 
 ---
 
@@ -69,7 +69,7 @@ $$H_0 = E_\mathbf{w} + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}}{\psi_\mathbf
     
 ---
     
-(3). The final step involves moment decomposition of the PDF gradient flow, $$\nabla_y^2\psi_\mathbf{w}(y^*)$$, for high resolution information extraction of heterogeneity around $$y^*$$ (which quantifies uncertainty): $$\nabla_y^2\psi_\mathbf{w}(y^*) = \psi_\mathbf{w}^0(y^*) + \lambda\psi_\mathbf{w}^1(y^*) + \lambda^2\psi_\mathbf{w}^2(y^*) + ...$$. This is achieved via solution of $$H_0$$ (in step 2) in terms of its intrinsic moments as follows:
+(3). The final step is the moment decomposition of the PDF gradient flow, $$\nabla_y^2\psi_\mathbf{w}(y^*)$$, for high resolution information extraction of heterogeneity around $$y^*$$ (which quantifies uncertainty): $$\nabla_y^2\psi_\mathbf{w}(y^*) = \psi_\mathbf{w}^0(y^*) + \lambda\psi_\mathbf{w}^1(y^*) + \lambda^2\psi_\mathbf{w}^2(y^*) + ...$$. This is achieved via solution of $$H_0$$ (in step 2) in terms of its intrinsic moments as follows:
 <br />
 <br />
 $$H_0^k = E_\mathbf{w}^k + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k}{\psi_\mathbf{w}^k}$$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Visit [paper 1](https://arxiv.org/abs/2109.10888) and [paper 2](https://arxiv.org/abs/2001.11495) for derivation and more details!)
