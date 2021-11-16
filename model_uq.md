@@ -98,8 +98,7 @@ The computational parts involved in implementing the QIPF framework are the foll
 The time complexity of the QIPF framework is therefore approximately $$\mathbf{O}(n+m)$$ where n and m are the number of weights and number of modes respectively. In practice, we do average pooling of weights thereby considerably reducing the effective number of weights used for QIPF implementation. Further, at maximum, we only extract about 20 QIPF modes thereby limiting m to a small value. This makes the QIPF framework considerably faster than Bayesian approaches. This is evident from the run-time comparisons of QIPF with MC-dropout in our experiments as shown in the following table.
 
 <figure>
-<img style="float: center" src="/r2.jpg" width="100%" height="100%">
-<figcaption align = "center"><b>MNIST illustrative example: (a) shows the histograms of uncertainty estimates where QIPF can be seen to achieve better class-separation between correct and wrong predictions (very low overlap). (c) and (d) show corresponding error detection ROC and precision-recall curves, (e), (f) and (g) show the graphs of ROC-AUC, PR-AUC and PT-Biserial Corr. vs noise internsity. QIPF framework can be seen to have better performance.</b></figcaption>
+<img style="float: center" src="/comp.jpg">
 </figure>
 
 ## Related Papers:
