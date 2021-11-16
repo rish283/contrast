@@ -51,7 +51,7 @@ The problem is further made challenging by covariate shift of the test-set so th
 A Bayesian approach to accomplish this involves methods for approximating the posterior predictive PDF of the model (a problem of marginalization over weights): $$p(y^*|x^*, \mathbf{D}) = \int{p(y^*|x^*, \mathbf{w})p(\mathbf{w}|\mathbf{D})d\mathbf{w}}$$.
 <br />
 <br />
-Our approach is to quantify the local gradient flow (heterogeneity) of $$p(y^*|x^*, \mathbf{w})$$. In other words, quantify how optimized weight $\mathbf{w}$ are to make predictions in the vicinity of $$y^*$$. This is done in the three steps:
+Our approach is to quantify the local gradient flow (heterogeneity) of $$p(y^*|x^*, \mathbf{w})$$. In other words, quantify how optimized weight $\mathbf{w}$ are to make predictions in the vicinity of $$y^*$$. This is done in the three steps.
 <br />
 <br />
 
