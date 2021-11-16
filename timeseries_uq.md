@@ -55,8 +55,8 @@ Our approach consists of three main steps:
     3. Moment decomposition of $$H$$ to extract various uncertainty modes at $$x^t$$ which serve as dynamical features of the time-series at time t:
     <br />
     <br />
-    $$H_^k(x^t) = E_\mathbf{w}^k(x^t) + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k(x^t)}{\psi_\mathbf{w}^k(x^t)}$$.
+    $$H^k(x^t) = E_\mathbf{w}^k(x^t) + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k(x^t)}{\psi_\mathbf{w}^k(x^t)}$$.
     <br />
     <br />
-    These stochastic features $$H_^0(x^t), H_^1(x^t), H_^2(x^t) ...$$ can thus be useful for many applications like clustering or detection of change points in the time-series.
+    These stochastic features $$H^0(x^t), H^1(x^t), H^2(x^t) ...$$ can thus be useful for many applications like clustering or detection of change points in the time-series.
 <br />
