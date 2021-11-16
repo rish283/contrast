@@ -81,48 +81,23 @@ These stochastic features $$H^0(x^t), H^1(x^t), H^2(x^t) ...$$ are then utilized
 
 ## Algorithm:
 A pseudo-code for QIPF implementation is as follows:
-<!-- \begin{algorithm}[H]
-\caption{Quantum decomposition of IPF}\label{euclid}
-\begin{algorithmic}
-\State \textbf{Input:}
-\State $x$: Signal
-\State $\sigma$: Kernel width
-\State $m$: Number of quantum modes
-\State \textbf{Initialization:}
-\State $\psi$: Wave-function
-\State $\psi^1, \psi^2, ... , \psi^m$: Wave-function Hermitian embeddings
-\State $V_s^1, V_s^2, ... , V_s^m$: QIPF modes
-\State $E^1, E^2, ... , E^m$: Eigenvalue of each mode
-\State \textbf{Computations:}
-\For {$i = $ 1 to length($x$)}
-\State $\psi=0$
-\For {$j = $ 1 to i}
-\State $\psi \gets \psi + e^{-\frac{(x_i - x_j)^2}{2\sigma^2}}$
-\EndFor
-\State $\psi_i \gets \sqrt{mean(\psi)}$
-\State 
-\State $[\psi_i^1, \psi_i^2, ... , \psi_i^m] \gets Hermite  Projections(\psi_i)$
-\State $[{\nabla^2}\psi_i^1, ... , {\nabla^2}\psi_i^m] \gets Laplacians$ %_\psi(\psi_i^2\psi_i^4...\psi_i^m)
-\State 
-\For {each mode $k$}
-\State $E_i^k = -\min_{q=1...i}\frac{\sigma^2/2{\nabla^2}\psi_q^k}{\psi_q^k}$
-\State
-\State $V_{s(i)}^k = E_i^k + \frac{\sigma^2/2{\nabla^2}\psi^k}{\psi^k}$
-\EndFor
-\EndFor
-\end{algorithmic}
-\end{algorithm} -->
-
-    
-    
 <figure>
 <img style="float: center" src="/alg.jpg" width="40%" height="40%">
+</figure>
+  
+<br />
+  
+## Illustrative Results:
+  
+<figure>
+<img style="float: center" src="/tsr1.jpg">
 <figcaption align = "center"><b>Detailed depiction of approach: QIPF uncertainty decomposition of a time series.</b></figcaption>
 </figure>
   
----
-  
-##Illustrative Results:
+<figure>
+<img style="float: center" src="/tsr2.jpg">
+<figcaption align = "center"><b>Detailed depiction of approach: QIPF uncertainty decomposition of a time series.</b></figcaption>
+</figure>
 
 
 [Return to research page](https://singhrish.com/research/)
