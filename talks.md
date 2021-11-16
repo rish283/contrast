@@ -5,7 +5,7 @@ title: "TALKS:"
 
 Quantifying Model Uncertainty using Perturbation theory
 ---
-NeurIPS Worshop on Distributional Shifts (DistShift) 2021:
+NeurIPS Workshop on Distributional Shifts (DistShift) 2021:
 <br />
 (coming soon!)
 <br />
