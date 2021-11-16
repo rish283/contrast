@@ -1,3 +1,8 @@
+---
+header-includes:
+  - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+---
+
 <style TYPE="text/css">
 code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
 </style>
@@ -73,7 +78,7 @@ These stochastic features $$H^0(x^t), H^1(x^t), H^2(x^t) ...$$ are then utilized
     
 ##Algorithm:
     
-$$
+
 \begin{algorithm}[!b]
 \caption{Quantum decomposition of IPF}\label{euclid}
 \begin{algorithmic}
@@ -105,7 +110,7 @@ $$
 \EndFor
 \end{algorithmic}
 \end{algorithm}
-$$
+
     
 <!--     
 <figure>
