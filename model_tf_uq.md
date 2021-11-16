@@ -26,7 +26,7 @@ MathJax.Hub.Queue(function() {
 
 We extend the application of QIPF for quantifying transfer learning uncertainty. Here, we utilize the QIPF to quantify the overall predictive uncertainty of a model originally trained on a source dataset and then fine-tuned on a target dataset by evaluating the weights of the fine-tuned layers on the RKHS potential field created by source layer weights. This gives the discrepancy (with respect ot the model) between source and target datasets.
 
-< br/ >
+<br />
 
 ## Transfer Learning
 For transfer learning, a model is first pre-trained on a source dataset, and then then fine tuned on the target dataset on which predictions are to be made. All layers are frozen after pre-training, except for the last layer which is trained on the target dataset.
@@ -39,8 +39,8 @@ We used a 1-D Fully Convolutional Network (FCN) architecture that achieves state
 <figcaption align = "center"><b>Correlations between Test Errors and UQ Values: The QIPF uncertainties (for all source-target pairs) can be seen to be highly correlated with the corresponding model test-set errors.</b></figcaption>
 </figure>    
 
-CORRELATION COEFICIENT BETWEEN ERROR AND UNCERTAINTY ESTIMATES:
-< br/ >
+Correlation coefficient between errors and uncertainty estimates:
+<br />
 MC Dropout: 0.71
-< br/ >
+<br />
 QIPF: 0.85
