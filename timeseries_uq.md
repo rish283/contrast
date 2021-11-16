@@ -77,7 +77,7 @@ These stochastic features $$H^0(x^t), H^1(x^t), H^2(x^t) ...$$ are then utilized
 <figcaption align = "center"><b>Detailed depiction of approach: QIPF uncertainty decomposition of a time series.</b></figcaption>
 </figure>
 
----
+<br />
 
 ## Algorithm:
 A pseudo-code for QIPF implementation is as follows:
@@ -94,6 +94,7 @@ A pseudo-code for QIPF implementation is as follows:
 <figcaption align = "center"><b>Analysis of mode locations of the sine wave in the space of data using different kernel widths. Solid colored lines represent the different QIPF modes. Dashed line represents the IPF.</b></figcaption>
 </figure>
   
+<br />
 <br />
   
 <figure>
