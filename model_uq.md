@@ -75,7 +75,7 @@ $$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **are the functional measure
 
 ---
     
-## Illustrative Results: 
+## Results: 
 <figure>
 <img style="float: center" src="/r1.jpg" width="100%" height="100%">
 <figcaption align = "center"><b>(a) QIPF modes of a sine-wave in data space. Tail regions of the PDF are seen to be efficiently quantified by QIPF modes. (b, c): Model uncertainty: (b) shows the high sensitivity of the QIPF with respect to model’s seen and unseen data regions. (c) shows it to be well calibrated with model’s regularization.</b></figcaption>
