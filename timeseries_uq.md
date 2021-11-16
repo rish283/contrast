@@ -66,7 +66,7 @@ These stochastic features $$H^0(x^t), H^1(x^t), H^2(x^t) ...$$ are then utilized
     
 <figure>
 <img style="float: center" src="/qspd7.jpg">
-<figcaption align = "center"><b>Detailed depiction of approach (QIPF uncertainty decomposition).</b></figcaption>
+<figcaption align = "center"><b>Detailed depiction of approach: QIPF uncertainty decomposition of time series.</b></figcaption>
 </figure>
 
 [Return to research page](https://singhrish.com/research/)
