@@ -1,9 +1,3 @@
----
-header-includes:
-  - \usepackage{algorithm}
-  - \usepackage{algpseudocode}
----
-
 <style TYPE="text/css">
 code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
 </style>
@@ -76,7 +70,14 @@ These stochastic features $$H^0(x^t), H^1(x^t), H^2(x^t) ...$$ are then utilized
 </figure>
     
 ---
-    
+
+---
+header-includes:
+  - \usepackage{algorithm}
+  - \usepackage{algpseudocode}
+  - \usepackage{algorithmic}
+  - \usepackage{algorithm2e}
+---
 #Algorithm:
 A pseudo-code for QIPF implementation is as follows:
 \begin{algorithm}[!b]
