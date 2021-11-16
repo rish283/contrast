@@ -106,6 +106,13 @@ A pseudo-code for QIPF implementation is as follows:
 
 ## Related Papers:
   
+Singh, R. and Principe, J., 2020, August. **Time Series Analysis using a Kernel based Multi-Modal Uncertainty Decomposition Framework**. In Conference on Uncertainty in Artificial Intelligence (pp. 1368-1377). PMLR. [(Paper Link)](http://proceedings.mlr.press/v124/singh20a.html)
+<details>
+<summary> Abstract </summary>
+<br>
+This paper proposes a kernel based information theoretic framework with quantum physical underpinnings for data characterization that is relevant to online time series applications such as unsupervised change point detection and whole sequence clustering. In this framework, we utilize the Gaussian kernel mean embedding metric for universal characterization of data PDF. We then utilize concepts of quantum physics to impart a local dynamical structure to characterized data PDF, resulting in a new energy based formulation. This facilitates a multi-modal physics based uncertainty representation of the signal PDF at each sample using Hermite polynomial projections. We demonstrate in this paper using synthesized datasets that such uncertainty features provide a better ability for online detection of statistical change points in time series data when compared to existing non-parametric and unsupervised methods. We also demonstrate a better ability of the framework in clustering time series sequences when compared to discrete wavelet transform features on a subset of VidTIMIT speaker recognition corpus.
+</details>
+  
 
 
 
