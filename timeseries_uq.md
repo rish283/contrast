@@ -63,6 +63,10 @@ $$H^k(x^t) = E_\mathbf{w}^k(x^t) + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k
 These stochastic features $$H^0(x^t), H^1(x^t), H^2(x^t) ...$$ are then utilized for applications like clustering or detection of change points in the time-series.
 
 ---
-
+    
+<figure>
+<img style="float: center" src="/qspd7.jpg">
+<figcaption align = "center"><b>Detailed depiction of approach (QIPF uncertainty decomposition).</b></figcaption>
+</figure>
 
 [Return to research page](https://singhrish.com/research/)
