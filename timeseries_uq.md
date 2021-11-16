@@ -44,14 +44,16 @@ Our approach consists of three main steps:
     <br />
     <br />
     $$p(x^t|x^0, x^1 ... x^{t-1}) \approx \psi_{\mathbf{x}}(x^t) = \frac{1}{n}\sum_{k=1}^{t-1}G_\sigma(x_k, x^t)$$.
-    <br />
-    <br />
+    
+---
+    
     2. A Schrödinger's equation formulation over data PDF by assuming the IFP, $$\psi_{\mathbf{x}}(x^t)$$, to be a wave-function. This transforms the static PDF measure (the IPF) into a dynamic embedding that measures the local changes in the PDF at $$x^t$$: 
     <br />
     <br />
     $$H_(x^t) = E_\mathbf{w}(x^t) + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}(x^t)}{\psi_\mathbf{w}(x^t)}$$ 
-    <br />
-    <br />
+    
+---
+    
     3. Moment decomposition of $$H$$ to extract various uncertainty modes at $$x^t$$ which serve as dynamical features of the time-series at time t:
     <br />
     <br />
@@ -59,4 +61,7 @@ Our approach consists of three main steps:
     <br />
     <br />
     These stochastic features $$H^0(x^t), H^1(x^t), H^2(x^t) ...$$ are then utilized for applications like clustering or detection of change points in the time-series.
-<br />
+
+---
+    
+
