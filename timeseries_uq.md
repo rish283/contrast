@@ -99,7 +99,7 @@ A pseudo-code for QIPF implementation is as follows:
   
 <figure>
 <img style="float: center" src="/tsr2.jpg">
-<figcaption align = "center"><b>Change point detection in time series: Last 1000 samples of drift datasets (top row), their corresponding QIPF mode standard deviations measured at each point (middle row) and corresponding the ROC curves (bottom row) for different methods measured in the range of 2000-3000 samples for both datasets. Black vertical lines (in the top row) mark the actual change points..</b></figcaption>
+<figcaption align = "center"><b>Change point detection in time series: Last 1000 samples of drift datasets (top row), their corresponding QIPF mode standard deviations measured at each point (middle row) and corresponding the ROC curves (bottom row) for different methods measured in the range of 2000-3000 samples for both datasets. Black vertical lines (in the top row) mark the actual change points.</b></figcaption>
 </figure>
   
 <br />
