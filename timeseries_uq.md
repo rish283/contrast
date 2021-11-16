@@ -78,6 +78,8 @@ These stochastic features $$H^0(x^t), H^1(x^t), H^2(x^t) ...$$ are then utilized
 ---
     
 ##Algorithm:
+  
+A pseudo-code for QIPF implementation is as follows:
     
 
 \begin{algorithm}[!b]
