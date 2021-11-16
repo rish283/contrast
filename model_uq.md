@@ -74,6 +74,7 @@ $$H_0 = E_\mathbf{w} + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}}{\psi_\mathbf
 <br />
 $$H_0^k = E_\mathbf{w}^k + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k}{\psi_\mathbf{w}^k}$$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Visit [paper 1](https://arxiv.org/abs/2109.10888) and [paper 2](https://arxiv.org/abs/2001.11495) for derivation and more details!)
 <br />
+<br />
 Here, $k$ denotes moment index. 
 <br />
 <br />
