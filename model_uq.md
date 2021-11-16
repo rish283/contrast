@@ -77,7 +77,7 @@ $$H_0^k(y^*) = E_\mathbf{w}^k(y^*) + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}
 Here, $k$ denotes moment index. 
 <br />
 <br />
-$$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **are the functional measurements at $$y^*$$ corresponding to different degrees of heterogeneity of model PDF (in terms of its gradient) at $$y^*$$, therefore representing successive local moments of model uncertainty (called QIPF moments) at $$y^*$$.**
+$$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **are the functional measurements at $$\mathbf{y^*}$$ corresponding to different degrees of heterogeneity of model PDF (in terms of its gradient) at $$\mathbf{y^*}$$, therefore representing successive local moments of model uncertainty (called QIPF moments) at the model's prediciton point.**
 
 ---
     
