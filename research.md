@@ -113,7 +113,7 @@ This letter introduces a new framework for quantifying predictive uncertainty fo
     
 <center> <h1> <ins>Transfer Learning Uncertainty Quantification using QIPF</ins> </h1> </center>
     <figure>
-<img style="float: center" src="/frmm.jpg">
+<img style="float: center" src="/tff.jpg">
 <figcaption align = "center"><b>Proposed approach: Moments extracted from the local interaction of the fine-tuned network weights with the RKHS potential field created by source network weights quantify the overall uncertainty in modeling target dataset.</b></figcaption>
 </figure>
     
