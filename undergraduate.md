@@ -22,7 +22,7 @@ Link: https://www.ojasracing.in
 
 <center> <h1> <ins>Research Projects:</ins> </h1> </center>
 
-During my junior and senior years, I was involved with two research projects involving electric machine systems (which was my interest at the time):
+During my junior and senior years, I worked on two research projects involving electric machine systems (which was my interest at the time):
 
 **Novel Rotor Position Estimation For Switched Reluctance Motor Using Vibration Signature Analysis**
 
