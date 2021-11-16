@@ -119,7 +119,7 @@ A pseudo-code for QIPF implementation is as follows:
     
     
 <figure>
-<img style="float: center" src="/alg.jpg">
+<img style="float: center" src="/alg.jpg" width="60%" height="60%">
 <figcaption align = "center"><b>Detailed depiction of approach: QIPF uncertainty decomposition of a time series.</b></figcaption>
 </figure>
 
