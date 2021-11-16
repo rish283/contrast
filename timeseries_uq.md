@@ -76,8 +76,8 @@ These stochastic features $$H^0(x^t), H^1(x^t), H^2(x^t) ...$$ are then utilized
 <img style="float: center" src="/qspd7.jpg">
 <figcaption align = "center"><b>Detailed depiction of approach: QIPF uncertainty decomposition of a time series.</b></figcaption>
 </figure>
-    
----
+
+<br />
 
 ##Algorithm:
 A pseudo-code for QIPF implementation is as follows:
@@ -119,5 +119,10 @@ A pseudo-code for QIPF implementation is as follows:
 <img style="float: center" src="/alg.jpg" width="40%" height="40%">
 <figcaption align = "center"><b>Detailed depiction of approach: QIPF uncertainty decomposition of a time series.</b></figcaption>
 </figure>
+  
+---
+  
+##Illustrative Results:
+
 
 [Return to research page](https://singhrish.com/research/)
