@@ -111,11 +111,15 @@ This letter introduces a new framework for quantifying predictive uncertainty fo
 
 ---
     
-<center> <h1> <ins>Transfer Learning Uncertainty Quantification using QIPF</ins> </h1> </center>
+<center> <h1> <ins>Transfer Learning Uncertainty Quantification using QIPF (ongoing)</ins> </h1> </center>
     <figure>
 <img style="float: center" src="/tffm1.jpg">
 <figcaption align = "center"><b>Proposed approach: Moments extracted from the local interaction of the fine-tuned layer weights with the RKHS potential field created by source layer weights quantify the overall uncertainty in modeling target dataset.</b></figcaption>
 </figure>
+    
+We extend the application of QIPF for quantifying transfer learning uncertainty. Here, we utilize the QIPF to quantify the overall predictive uncertainty of a model originally trained on a source dataset and then fine-tuned on a target dataset by evaluating the weights of the fine-tuned layers on the RKHS potential field created by source layer weights. This gives the discrepancy (with respect ot the model) between source and target datasets.
+    
+[Click here to read more!](/model_tf_uq.md)
     
 ---
     
