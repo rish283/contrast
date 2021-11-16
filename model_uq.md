@@ -61,23 +61,23 @@ Our approach is to quantify the local gradient flow (heterogeneity) of $$p(y^*|x
 (2).  The next step involves quantification of local gradient flow of $$p(y^*|x^*, \mathbf{w})$$ using Laplacian operator based formulation: $$\nabla_y^2\psi_\mathbf{w}(y^*) \approx p(y^* + \Delta{y^*}|x^*, \mathbf{w}) - p(y^*|x^*, \mathbf{w})$$.
 <br />
 <br />
-Inspired by quantum mathematics we propose to use the Schrodinger’s equation, which includes the Laplacian of the wavefunction, to estimate the local gradient flow of $\psi_\mathbf{w}$. Unlike quantum mechanics that utilizes an Hilbert space, we estimate the solution in an RKHS, with the great advantage that we can use the kernel trick to compute the solution in the input space, directly from samples. The local gradient flow of $$p(y^*|x^*, \mathbf{w})$$ therefore now takes the form:
+Inspired by quantum mathematics we propose to use the Schrodinger’s equation, which includes the Laplacian of the wave-function, to estimate the local gradient flow of $\psi_\mathbf{w}$. Unlike quantum mechanics that utilizes a Hilbert space, we estimate the solution in an RKHS, with the great advantage that we can use the kernel trick to compute the solution in the input space, directly from samples. The local gradient flow of $$p(y^*|x^*, \mathbf{w})$$ can therefore be represented as a Hamiltonian (a function measuring the rate of change), $$H_0$$ at $$y^*$$ given by:
 <br />
 <br />
-$$H_0 = E_\mathbf{w} + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}}{\psi_\mathbf{w}}$$ 
+$$H_0(y^*) = E_\mathbf{w}(y^*) + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}(y^*)}{\psi_\mathbf{w}(y^*)}$$ 
     
 ---
     
 (3). The final step is the moment decomposition of the PDF gradient flow (i.e. $$\nabla_y^2\psi_\mathbf{w}(y^*) = \psi_\mathbf{w}^0(y^*) + \lambda\psi_\mathbf{w}^1(y^*) + \lambda^2\psi_\mathbf{w}^2(y^*) + ...$$) for high resolution information extraction of heterogeneity around $$y^*$$ (which quantifies uncertainty). This is achieved via solution of $$H_0$$ (in step 2) in terms of its intrinsic moments as follows:
 <br />
 <br />
-$$H_0^k = E_\mathbf{w}^k + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k}{\psi_\mathbf{w}^k}$$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Visit [paper 1](https://arxiv.org/abs/2109.10888) and [paper 2](https://arxiv.org/abs/2001.11495) for derivation and more details!)
+$$H_0^k(y^*) = E_\mathbf{w}^k(y^*) + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k(y^*)}{\psi_\mathbf{w}^k(y^*)}$$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Visit [paper 1](https://arxiv.org/abs/2109.10888) and [paper 2](https://arxiv.org/abs/2001.11495) for derivation and more details!)
 <br />
 <br />
 Here, $k$ denotes moment index. 
 <br />
 <br />
-$$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **are the QIPF uncertainty modes evaluated at model prediction $$\mathbf{y^*}$$**. They represent the different degrees to which the weight PDF is regularized around $$y^*$$.
+$$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **are the functional measurements at $$y^*$$ corresponding to different degrees of heterogeneity of model PDF (in terms of its gradient) at $$y^*$$, therefore representing successive local moments of model uncertainty (called QIPF moments) at $$y^*$$.**
 
 ---
     
