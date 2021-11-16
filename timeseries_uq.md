@@ -1,6 +1,7 @@
 ---
 header-includes:
-  - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+  - \usepackage{algorithm}
+  - \usepackage{algpseudocode}
 ---
 
 <style TYPE="text/css">
