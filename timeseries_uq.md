@@ -78,11 +78,8 @@ These stochastic features $$H^0(x^t), H^1(x^t), H^2(x^t) ...$$ are then utilized
 </figure>
     
 ---
-  
-<br />
-  
-##Algorithm:
 
+##Algorithm:
 A pseudo-code for QIPF implementation is as follows:
 <!-- \begin{algorithm}[H]
 \caption{Quantum decomposition of IPF}\label{euclid}
@@ -119,7 +116,7 @@ A pseudo-code for QIPF implementation is as follows:
     
     
 <figure>
-<img style="float: center" src="/alg.jpg" width="60%" height="60%">
+<img style="float: center" src="/alg.jpg" width="40%" height="40%">
 <figcaption align = "center"><b>Detailed depiction of approach: QIPF uncertainty decomposition of a time series.</b></figcaption>
 </figure>
 
