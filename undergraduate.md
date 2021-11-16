@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Undergraduate Projects"
+title: "Undergraduate Work"
 ---
 
 <center> <h1> <ins>Team Ojas - The Electric Car Project</ins> </h1> </center>
