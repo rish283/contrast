@@ -53,6 +53,6 @@ QIPF: 0.85
 A VGG-16 network was pre-trained on ImageNet dataset finetuned on kuzushiji-MNIST data. Uncertainty was quantified by decomposing QIPF of finutuned layer weights in the field created by pretrained layer weights.
     
 <figure>
-<img style="float: center" src="/tfres1.jpg">
+<img style="float: center" src="/tfres2.jpg">
 <figcaption align = "center"><b>Transfer Learning Uncertainty Quantification Example (ImageNet - KMNIST): Left - depiction of model architecture and method for quantifying performance of UQ techniques. Right - AUROC results of MC-dropout and QIPF in test-set error detection.</b></figcaption>
 </figure> 
