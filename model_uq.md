@@ -52,7 +52,7 @@ A Bayesian approach to accomplish this involves methods for approximating the po
 <br />
 <br />
 Our approach is to quantify the local gradient flow (heterogeneity) of $$p(y^*|x^*, \mathbf{w})$$. In other words, quantify how optimized weight $\mathbf{w}$ are to make predictions in the vicinity of $$y^*$$. This is done in the three steps.
-<br />
+
 <br />
 
 (1). The first step is the projection (mean embedding) of weights in a Gaussian RKHS to estimate the implicit weight PDF: $$p(y^*|x^*, \mathbf{w}) \approx \psi_{\mathbf{w}}(y^*) = \frac{1}{n}\sum_{t=1}^{n}G_\sigma(w_t, y^*)$$.
