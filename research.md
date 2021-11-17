@@ -71,6 +71,7 @@ In this work, we utilize the QIPF, an RKHS based uncertainty decomposition frame
     
 <center> <h1> <ins>Hierarchical Linear Dynamical System</ins> </h1> </center>
 The Hierarchical Linear Dynamical System (HLDS) is a modified Kalman filter based topology of linear dynamical system (LDS) where we impose prior structural constraints of systematically varying proportions on the states. This induces unsupervised clustering of signal dynamics (being modeled by the LDS) at its most constrained states, thereby naturally improving its ability to model complex data sequences. I made the following contributions in the development and application of this algorithm. 
+     < br\ >
     1. Demonstrated a better ability of the HLDS in modeling layered dynamic textures (a complex multi-dimensional and multi-dynamical data sequence where one or more texture videos are imposed over another) when compared with LDS: [click here to visit paper for details](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9054084)
     < br\ >
     2. Introduced Correntropy cost function for the HLDS to further improve its localization ability of the signal in its constrained states. This made it possible for the HLDS (despite being a linear algorithm) to cluster different speech phonemes. [click here to visit paper for details](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8489775)
