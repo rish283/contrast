@@ -30,7 +30,7 @@ MathJax.Hub.Queue(function() {
 
 <figure>
 <img style="float: center" src="/kk1.jpg">
-<figcaption align = "center"><b>Proposed approach: Moments extracted from the local interaction of the model output with the RKHS potential field of the weights quantify the output uncertainty.</b></figcaption>
+<figcaption align = "center"><b>Approach: Moments extracted from the local interaction of the model output with the RKHS potential field of the weights quantify the output uncertainty.</b></figcaption>
 </figure>
 
 We combine the expressive power of the Gaussian reproducing kernel Hilbert space (RKHS) and the high local resolution provided by quantum physics to create a moment decomposition framework for quantifying the predictive uncertainty of neural network models. The framework, called the quantum information potential field (QIPF), replaces the convention Bayesian notion of weight PDF with a physics based potential field representation of the models weights in a Gaussian RKHS. The QIPF moments quantify predictive uncertainty of a model by measuring the local interaction of the model prediction with its weight potential field. We show that the QIPF uncertainty measures are much more precise and better calibrated than Bayesian methods, especially in presence of distributional shifts in test-set, while being much cheaper to compute. 
@@ -47,7 +47,7 @@ We combine the expressive power of the Gaussian reproducing kernel Hilbert space
 
 <figure>
 <img style="float: center" src="/tffm1.jpg">
-<figcaption align = "center"><b>Proposed approach: Moments extracted from the local interaction of the fine-tuned layer weights with the RKHS potential field created by source layer weights quantify the overall uncertainty in modeling target dataset.</b></figcaption>
+<figcaption align = "center"><b>Approach: Moments extracted from the local interaction of the fine-tuned layer weights with the RKHS potential field created by source layer weights quantify the overall uncertainty in modeling target dataset.</b></figcaption>
 </figure>
     
 We extend the application of QIPF for quantifying transfer learning uncertainty. Here, we utilize the QIPF to quantify the overall predictive uncertainty of a model originally trained on a source dataset and then fine-tuned on a target dataset by evaluating the weights of the fine-tuned layers on the RKHS potential field created by source layer weights. This gives the discrepancy (with respect ot the model) between source and target datasets.
@@ -60,7 +60,7 @@ We extend the application of QIPF for quantifying transfer learning uncertainty.
     
 <figure>
 <img style="float: center" src="/frmm.jpg">
-<figcaption align = "center"><b>Proposed decomposition of time series signal using QIPF uncertainty framework.</b></figcaption>
+<figcaption align = "center"><b>Decomposition of time series signal using QIPF uncertainty framework.</b></figcaption>
 </figure>
     
 In this work, we utilize the QIPF, an RKHS based uncertainty decomposition framework, to obtain a physical viewpoint of time series signal dynamics. More concretely, we leverage the QIPF as a dynamic potential field (embedding space) that automatically and sensitively adapts its local structure according to data, for the analysis of time series signals. We consequently arrive at an energy-based formulation of the time series signal that is now represented in terms of multiple moments of uncertainty at each data sample. Preliminary experiments show that QIPF features of time series data can be very useful for applications like anomaly detection and clustering.
