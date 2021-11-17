@@ -99,7 +99,7 @@ The time complexity of the QIPF framework is therefore approximately $$\mathbf{O
 
 <figure>
 <img style="float: center" src="/comp.jpg" width="40%" height="40%">
-<figcaption align = "center"><b>Computational time analysis.</b></figcaption>
+<figcaption align = "left"><b>Computational time analysis.</b></figcaption>
 </figure>
 
 ## Related Papers:
