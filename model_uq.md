@@ -90,7 +90,7 @@ $$\mathbf{H_0^0(y^*), H_0^1(y^*), H_0^2(y^*) ...}$$ **are the functional measure
  
 <br />
     
-## Computational Time:
+## Computational Cost Discussion:
 The computational parts involved in implementing the QIPF framework are the following:
     1. Computation of the IPF, $$\psi_\mathbf{w}(y^*)$$, whose computational time grows linearly with the size of the weight vector, $$\mathbf{w}$$.
     2. Extraction of QIPF modes (involving hermite polynomial projections of $$\psi_\mathbf{w}(y^*)$$) whose computational time grows linearly with the number of modes.
@@ -98,7 +98,7 @@ The computational parts involved in implementing the QIPF framework are the foll
 The time complexity of the QIPF framework is therefore approximately $$\mathbf{O}(n+m)$$ where n and m are the number of weights and number of modes respectively. In practice, we do average pooling of weights thereby considerably reducing the effective number of weights used for QIPF implementation. Further, at maximum, we only extract about 20 QIPF modes thereby limiting m to a small value. This makes the QIPF framework considerably faster than Bayesian approaches. This is evident from the run-time comparisons of QIPF with MC-dropout in our experiments as shown in the following table.
 
 <figure>
-<img style="float: center" src="/comp.jpg" width="60%" height="60%">
+<img style="float: center" src="/comp.jpg" width="40%" height="40%">
 <figcaption align = "center"><b>Computational time analysis.</b></figcaption>
 </figure>
 
