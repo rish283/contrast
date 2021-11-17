@@ -21,7 +21,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "publications.md", title: "Publications"}
   - {file: "talks.md", title: "Talks"}
   - {file: "industry.md", title: "Industry"}
-  - {url: "/rish.pdf", title: "CV"}
+  - {url: "/cv.pdf", title: "CV"}
   - {url: "/Rishabh_bio.pdf", title: "Bio"}
   - {file: "undergraduate.md", title: "Undergraduate"}
   - {file: "service.md", title: "Service"}
