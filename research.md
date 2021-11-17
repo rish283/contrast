@@ -73,10 +73,10 @@ In this work, we utilize the QIPF, an RKHS based uncertainty decomposition frame
 The Hierarchical Linear Dynamical System (HLDS) is a modified Kalman filter based topology of linear dynamical system (LDS) where we impose prior structural constraints of systematically varying proportions on the states. This induces unsupervised clustering of signal dynamics (being modeled by the LDS) at its most constrained states, thereby naturally improving its ability to model complex data sequences. I made the following contributions in the development and application of this algorithm. 
      <br />
          <br />
-    1. Demonstrated better ability of the HLDS in modeling layered dynamic textures (a complex multi-dimensional and multi-dynamical data sequence where one or more texture videos are imposed over another) when compared with LDS. [Visit paper for details](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9054084)
+    1. Demonstrated better ability of the HLDS in modeling layered dynamic textures (a complex multi-dimensional and multi-dynamical data sequence where one or more texture videos are imposed over another) when compared with LDS. [Visit paper for details](https://ieeexplore.ieee.org/document/9054084)
     <br />
          <br />
-    2. Introduced Correntropy cost function for the HLDS to further improve its localization ability of the signal in its constrained states. This made it possible for the HLDS (despite being a linear algorithm) to cluster different speech phonemes. [Visit paper for details](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8489775)
+    2. Introduced Correntropy cost function for the HLDS to further improve its localization ability of the signal in its constrained states. This made it possible for the HLDS (despite being a linear algorithm) to cluster different speech phonemes. [Visit paper for details](https://ieeexplore.ieee.org/abstract/document/8489775)
     <br />
          <br />
     3. Deployed HLDS for video game action sequence segmentation as part of a preliminary downstream task in a DARPA funded project: "An Active Architecture for Self Learning". [Link to Project Abstract](https://www.eng.ufl.edu/ai-university/research/an-active-architecture-for-self-learning/)
