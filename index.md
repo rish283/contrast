@@ -11,5 +11,5 @@ PhD (2018 - expected 2022) - University of Florida, USA\
 Master of Science (2016 - 2018) - University of Florida, USA\
 Bachelor of Technology (2010 - 2014) - Vellore Institute of Technology, India
 
-![Visitor Count](https : //profile-counter.glitch.me/rish283/count.svg)
+<!-- ![Visitor Count](https : //profile-counter.glitch.me/rish283/count.svg) -->
 
