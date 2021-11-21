@@ -9,7 +9,7 @@ title: "Industrial Experience"
 Boca Raton, Florida, USA
 ---
 
-<img style="float: left; padding-right:25px" src="/avt.jpg" height="60%"> Aventusoft LLC is a research startup that develops smart wearable accelerometer devices for analyzing and diagnosing heart conditions. As part of the internship, I developed deep learning algorithms for detecting fiducials points in electrocardiography signals as part of a downstream task for detecting arrhythmias. My work was incorporated into the company’s product.
+<img style="float: left; padding-right:25px" src="/avt.jpg" height="60%"> Aventusoft LLC is a research startup that develops smart wearable accelerometer devices for analyzing and diagnosing heart conditions. During the internship, I developed deep learning algorithms for detecting fiducials points in electrocardiography signals as part of a downstream task for detecting arrhythmias. My work was incorporated into the company’s product.
 
 <br />
 <br />
