@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "TALKS:"
+title: "Conference Presentations:"
 ---
 
 Time Series Analysis using a Kernel based Uncertainty Decomposition Framework
@@ -16,7 +16,8 @@ International Conference on Acoustics, Speech and Signal Processing (ICASSP) 202
 <br />
 <br />
 
-<h1>CONTRIBUTED TALKS:</h1>
+<h1>Contributed Talks:</h1>
+---
 
 A Quantum Theory Inspired Framework for Uncertainty Quantification
 ---
