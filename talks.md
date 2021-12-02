@@ -3,14 +3,6 @@ layout: page
 title: "TALKS:"
 ---
 
-Quantifying Model Uncertainty using Perturbation theory
----
-NeurIPS Workshop on Distributional Shifts (DistShift) 2021:
-<br />
-(coming soon!)
-<br />
-<br />
-
 Time Series Analysis using a Kernel based Uncertainty Decomposition Framework
 ---
 Conference on Uncertainty in Artificial Intelligence (UAI) 2020:
