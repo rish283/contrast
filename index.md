@@ -17,7 +17,7 @@ Reseach Interests: Kernel methods, Information Theoretic Learning, Machine Learn
 I am in the job market for research positions. Please reach out to me for such opprtunities broadly related to (but not limited to) areas such as robust AI, uncertainty in AI, representation learning, interpretable/explainable AI and trustworthy/safe AI research.
 
 
-Email: {url: "mailto:rish283@ufl.edu"}
+Email: rish283@ufl.edu
 
 <!-- ![Visitor Count](https : //profile-counter.glitch.me/rish283/count.svg) -->
 
