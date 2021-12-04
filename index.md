@@ -9,7 +9,8 @@ My research work involves developing RKHS based methods that leverage certain co
 <br>
 PhD (2018 - expected 2022) - University of Florida, USA\
 Master of Science (2016 - 2018) - University of Florida, USA\
-Bachelor of Technology (2010 - 2014) - Vellore Institute of Technology, India
+Bachelor of Technology (2010 - 2014) - Vellore Institute of Technology, India.
+
 
 Reseach Interests: Kernel methods, Information Theoretic Learning, Machine Learning, Physics inspired methods for interpreting data and neural networks.
 
