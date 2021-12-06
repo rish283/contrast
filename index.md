@@ -12,9 +12,9 @@ Master of Science (2016 - 2018) - University of Florida, USA\
 Bachelor of Technology (2010 - 2014) - Vellore Institute of Technology, India.
 
 
-Reseach Interests: Kernel methods, Information Theoretic Learning, Machine Learning, Physics inspired methods for interpreting data and neural networks.
+**Reseach Interests:** Kernel methods, Information Theoretic Learning, Machine Learning, Physics inspired methods for interpreting data and neural networks.
 
-I am in the job market for research positions. Please reach out to me for such opprtunities broadly related to (but not limited to) areas such as robust AI, physics inspired AI, uncertainty in AI, representation learning, interpretable/explainable AI and trusted/safe AI research.
+I am in the job market for research positions. Please reach out to me for opprtunities broadly related to (but not limited to) areas such as trusted/safe AI research, physics inspired AI, uncertainty in AI, representation learning, interpretable/explainable AI and robust AI research.
 
 
 Email: rish283@ufl.edu
