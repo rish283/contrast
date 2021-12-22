@@ -16,6 +16,8 @@ Bachelor of Technology (2010 - 2014) - Vellore Institute of Technology, India.
 
 I am in the job market for research positions. Please reach out to me for opprtunities broadly related to (but not limited to) areas such as trusted/safe AI research, physics inspired AI, uncertainty in AI, representation learning, interpretable/explainable AI and robust AI research.
 
+In my spare time, I like to go out for runs, try my hand in cooking diverse recipies and touch base with global affairs.
+
 <br>
 Email: rish283@ufl.edu
 
