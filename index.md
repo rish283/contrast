@@ -8,7 +8,7 @@ My research work involves developing RKHS based methods that leverage certain co
 
 **Research Interests:** *Kernel methods, Information Theoretic Learning, Machine Learning, Physics inspired methods for interpreting data and neural networks.*
 
-**Extra-curricular Interests:** *outdoor runs, soccer, cooking, global affairs.*
+**Extra-curricular Interests:** *Outdoor runs, Soccer, Cooking, Global affairs.*
 
 <br>
 PhD (2018 - expected 2022) - University of Florida, USA\
