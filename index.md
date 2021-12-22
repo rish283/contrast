@@ -2,7 +2,7 @@
 layout: page
 title: "Greetings!!"
 ---
-<img style="float: left; padding-right:25px" src="assets/me.JPG" width="30%" height="30%">This is the portfolio website of Rishabh Singh, a PhD candidate under the advisement of Dr. [Jose C. Principe](https://www.ece.ufl.edu/people/faculty/jose-c-principe/) at the [Computational NeuroEngineering Lab (CNEL)](http://www.cnel.ufl.edu), [University of Florida](https://www.ufl.edu).
+<img style="float: left; padding-right:25px" src="assets/me.JPG" width="30%" height="30%">I am Rishabh Singh, a PhD candidate under the advisement of Dr. [Jose C. Principe](https://www.ece.ufl.edu/people/faculty/jose-c-principe/) at the [Computational NeuroEngineering Lab (CNEL)](http://www.cnel.ufl.edu), [University of Florida](https://www.ufl.edu).
 
 My research work involves developing RKHS based methods that leverage certain concepts from quantum physics to obtain representations of data and neural network models that are useful for applications such as uncertainty quantification in deep learning, quantification of data transferability and high resolution information retrieval from time-series data for clustering and dependency quantification. Visit my [Research page](research.md) to learn more!
 
