@@ -2,7 +2,7 @@
 layout: page
 title: "Greetings!!"
 ---
-<img style="float: left; padding-right:25px" src="assets/me.JPG" width="30%" height="30%">I am Rishabh Singh, a PhD candidate under the advisement of Dr. [Jose C. Principe](https://www.ece.ufl.edu/people/faculty/jose-c-principe/) at the [Computational NeuroEngineering Lab (CNEL)](http://www.cnel.ufl.edu), [University of Florida](https://www.ufl.edu).
+<img style="float: left; padding-right:25px" src="assets/IMG_8196.JPG" width="30%" height="30%">I am Rishabh Singh, a PhD candidate under the advisement of Dr. [Jose C. Principe](https://www.ece.ufl.edu/people/faculty/jose-c-principe/) at the [Computational NeuroEngineering Lab (CNEL)](http://www.cnel.ufl.edu), [University of Florida](https://www.ufl.edu).
 
 My research work involves developing physics inspired functional operators in the reproducing kernel Hilbert space (RKHS) for obtaining representations of data and neural network models that are useful for various applications in machine learning and signal processing that primarily include uncertainty quantification of neural networks, quantification of data/model transferability and time-series dependency quantification and clustering. Visit my [Research page](research.md) to learn more!
 
