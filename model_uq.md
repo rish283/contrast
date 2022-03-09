@@ -1,5 +1,4 @@
 <!-- ---
-layout: page
 title: "RKHS based Physical Interpretation of Model Uncertainty: The QIPF"
 --- -->
 
